@@ -1,0 +1,70 @@
+\section{Moving Skarabs}
+
+
+\textbf{WARNING}:\textit{ do not try to move the skarabs right after stopping or starting a subarray. The SKARABs need a couple of minutes to restart. Otherwise, they will not be found by the script, and will be left behind on the unwanted cmc.}\\
+
+\textbf{IP addresses}:\\
+cmc1: 10.103.254.1 and name: cmc1.cbf.mkat.karoo.kat.ac.za 
+cmc2: 10.103.254.3 and name: cmc2.cbf.mkat.karoo.kat.ac.za, 
+You can use the IP addresses or hostnames interchangeably (whichever you prefer) 
+
+This will connect to all the switches, discover which skarabs are currently online on the various ports, and move them to the requested master controller (-m switch).\\
+\\
+\textbf{From the obs Machine}:
+
+\begin{lstlisting}[style=DOS]
+kcpcmd -t 10 -s cmc1.cbf.mkat.karoo.kat.ac.za:7147 resource-list | grep "up$" | wc -l
+\end{lstlisting}
+(this will give you the number of skarabs available on cmc1.) 
+\begin{lstlisting}[style=DOS]
+kcpcmd -t 10 -s cmc2.cbf.mkat.karoo.kat.ac.za:7147 resource-list | grep "up$" | wc -l
+\end{lstlisting}
+(this will give you the number of skarabs available on cmc2.) \\
+\\
+\textbf{If moving to cmc1, use -m cmc1:}:
+\begin{lstlisting}[style=DOS]
+./usersnfs/cbf_support/./cmc_manage_skarabs.py -m cmc1 -a 5 6 7 8 9 10 11 12 13 14 15 16 17 18 -k cmc1 cmc2
+\end{lstlisting}\\
+\\
+\textbf{If moving to cmc2 use -m cmc2}:
+\begin{lstlisting}[style=DOS]
+./usersnfs/cbf_support/./cmc_manage_skarabs.py -m cmc2 -a 5 6 7 8 9 10 11 12 13 14 15 16 17 18  -k cmc1 cmc2
+\end{lstlisting}
+
+
+
+
+
+
+
+
+
+
+
+This will connect to all the switches, discover which skarabs are currently online on the various ports, and move them to the requested master controller (-m switch).
+
+
+
+\section{Global Synchronisation}
+
+This script seeks to synchronize all digitisers to the Digitiser Master Controller so that signal/data coming into the correlator is in sync and correlates. 
+\begin{itemize}
+\item{} Ensure epoch sync on all usable digitisers (all bands) is done for the day
+\item{} In the GUI, verify that all subarrays are inactive
+\end{itemize}
+
+\subsection{Mark Digitiser Ready}
+\section{Requesting which receptors have UHF-band digitisers}
+\section{Receivers}
+\section{AP Motion Profilers}
+\subsection{To check if profilers are on or off}
+\subsubsection{To switch profilers off}
+\subsubsection{To switch profilers on}
+\subsection{To check which antenna belong to which proxy}
+\section{AP Point Error Tiltmeters}
+\subsection{SE tilt sensor measurements observations [if wind < 4 m/s]}
+\subsection{Flights}
+
+
+
+	

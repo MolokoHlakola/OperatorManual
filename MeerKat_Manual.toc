@@ -1,0 +1,38 @@
+\contentsline {chapter}{\numberline {1}Introduction}{8}
+\contentsline {section}{\numberline {1.1}Int}{8}
+\contentsline {chapter}{\numberline {2}Instrument Calibration Procedures}{9}
+\contentsline {section}{\numberline {2.1}Receiver System Tests (RTS) and Calibration}{10}
+\contentsline {section}{\numberline {2.2}Cable Delay Calibration}{10}
+\contentsline {subsection}{\numberline {2.2.1}Band Pass Calibration}{10}
+\contentsline {section}{\numberline {2.3}Phase-up and Phase Down}{10}
+\contentsline {section}{\numberline {2.4}Pointing Calibration}{10}
+\contentsline {subsection}{\numberline {2.4.1}Single Dish Pointing}{10}
+\contentsline {subsubsection}{Pointing Check}{10}
+\contentsline {subsubsection}{Interfrometric Pointing}{10}
+\contentsline {subsubsection}{AP Motion Profilers}{10}
+\contentsline {section}{\numberline {2.5}Holography Test}{10}
+\contentsline {section}{\numberline {2.6}Digitiser attenuation levels}{10}
+\contentsline {section}{\numberline {2.7}System Sychoronisation}{10}
+\contentsline {subsection}{\numberline {2.7.1}Digitiser Master Controller}{10}
+\contentsline {subsection}{\numberline {2.7.2}Digitiser Synchronisation}{10}
+\contentsline {subsection}{\numberline {2.7.3}Aantenna Control Unit Synchronisation}{10}
+\contentsline {chapter}{\numberline {3}Safety Procedure}{11}
+\contentsline {section}{\numberline {3.1} Operational Safety Procedure}{11}
+\contentsline {chapter}{\numberline {4}System Settings Procedures}{12}
+\contentsline {section}{\numberline {4.1}Moving Skarabs}{12}
+\contentsline {section}{\numberline {4.2}Global Synchronisation}{13}
+\contentsline {subsection}{\numberline {4.2.1}Mark Digitiser Ready}{14}
+\contentsline {section}{\numberline {4.3}Requesting which receptors have UHF-band digitisers}{14}
+\contentsline {section}{\numberline {4.4}Receivers}{14}
+\contentsline {section}{\numberline {4.5}AP Motion Profilers}{14}
+\contentsline {subsection}{\numberline {4.5.1}To check if profilers are on or off}{14}
+\contentsline {subsubsection}{To switch profilers off}{14}
+\contentsline {subsubsection}{To switch profilers on}{14}
+\contentsline {subsection}{\numberline {4.5.2}To check which antenna belong to which proxy}{14}
+\contentsline {section}{\numberline {4.6}AP Point Error Tiltmeters}{14}
+\contentsline {subsection}{\numberline {4.6.1}SE tilt sensor measurements observations [if wind < 4 m/s]}{14}
+\contentsline {subsection}{\numberline {4.6.2}Flights}{14}
+\contentsline {chapter}{\numberline {5}Chapter Three Title}{15}
+\contentsline {chapter}{\numberline {6}Chapter Four Title}{16}
+\contentsline {chapter}{\numberline {7}Conclusion}{17}
+\contentsline {chapter}{\numberline {A}Appendix Title}{18}
