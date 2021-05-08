@@ -1,0 +1,23 @@
+Every Wednesday is reserved for maintenance, upgraded and deployment of new software and hardware. This time is usually given to engineers and technicians to sort out issues and faults that have been reported by Telescope Operators in Userlogs and Jiras.  There are still observations that are carried out depending on the number of antennas. But this day is mainly used for integration testing and bug fixing. 
+\section{ Flights}
+On Wednesday morning, a flight takes off from Cape Town International Airport with a number of engineers who go to site to do different types of tasks like hardware installation, testing, bug fixes etc on site. For days and times when there will be a flight arriving on site, it is important to stow the receptors away from the flight path. The flight company usually sends the ETA for the destination at Losberg and the flight arrival and departures are marked on the site calendar. The procedure to follow is to build a subarray and then use the  following schedule block (SB), which must be verified on the GUI and run as an observation, ensure that receptors are pointing all at elevation 18 deg.\\
+In ipython session do the following commands:
+
+\begin{lstlisting}[style=DOS]
+configure_obs()
+obs.sb.new(owner="Operator") 
+obs.sb.type = katuilib.ScheduleBlockTypes.OBSERVATION
+obs.sb.description = "Lower APs for Flight arrival and departure" 
+obs.sb.instruction_set= "run-obs-script /home/kat/katsdpscripts/utility/flight_stow.py"
+obs.sb.to_defined()
+obs.sb.to_approved()
+obs.sb.unload()
+\end{lstlisting}
+
+You can run the observation like any other observation except there is no need to include other resources like cbf and sdp in the subarray. 
+
+\section{ ComRAD}
+
+Use this tool to track Execujet flights every Wednesday so to stow/unstow antennas to protect the receivers\cite{ComRAD}.
+\url{http://comradgis.kat.ac.za:8000/login}\\
+You can create your own username and password. 

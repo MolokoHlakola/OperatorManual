@@ -1,0 +1,70 @@
+
+
+
+\section{Digitisers - Document}\part{title}
+
+Updating config for a replaced digitiser
+Digitisers normally have their config files updated before they are handed over to Operations. If a digitiser is replaced, it's serial number needs to be updated in CAM's katconfig configuration files. This will require someone from the operations team to perform github updates.  The procedure to do that is shown below.
+
+Note: Swaps done in S-band does not need updates in katconfig, because S-band packetisers don’t use serial numbers, but instead use IP addresses according to the receptor number which gets set in the packetiser itself during installation. This is their way of communicating with MeerKAT. Hence the IP address never has to change when S-band packetisers are replaced. 
+
+There are two different procedures which you can choose to follow:
+On the terminal
+ssh kat@ops.kat.ac.za
+cd katconfig/static/antennas/
+git checkout master
+git pull
+git checkout karoo
+git pull
+git checkout -b update_m0XX_dig_config (If the response is: “fatal: A branch named 'update_m0XX_dig_config' already exists.”, then rerun the command, but exclude “-b” this time.
+git branch   ( This should give: *update_m0XX_dig_config )
+ls
+vi m0XX.conf (you can also use nano m0XX.conf whichever you comfortable with)
+Type the letter “i” in order to edit the file.
+format should be for example: digitiser_l = ready:dig-041 (we want to change this to the new serial number, i.e 064 for example, to have digitiser_l = ready:dig-064) 
+any digitisers not installed should be of the format: digitiser_x = absent
+Save the file and exit (press Esc, then type “:wq!”)
+git diff (shows changes you have made, check they are correct)
+git add .
+git commit -m “Updating (relevant band) digitiser serial no to 0XX on m0XX”
+git push --set-upstream origin update_m0XX_dig_config
+Go to github: \href{https://github.com/ska-sa/katconfig}
+Go to the new branch by clicking on the dropdown list on available branches (should currently be on the karoo branch) and then selecting the branch name of the new branch created.
+
+
+Create pull request from update_m0XX_dig_config (name of branch created) to karoo by clicking on “Pull request” at the top right.
+
+
+Make sure “base: karoo” and “compare: update_m0XX_dig_config” is selected. (Also make sure it’s only the files you have modified which are part of the pull request - if you did the above steps properly that will be the case).
+Then write a comment stating what you are doing, why (give Jira number if applicable) and make the request out to Pieter Kotze. Below is an example:
+
+
+At the right hand side at the top next to “Reviewers”, click on the gear icon. It will drop down a list of reviewers to choose from. Type “ppakotze” in the search field to find Pieter K and then click on Pieter K to request him to approve your pull request (It will show a check mark next to his name, and then under “Reviewers” you will see a yellow dot next to his name).
+
+Then click on “Create pull request”.
+Note: After Pieter K approves the pull request, he usually also merges the pull request, but sometimes you have to do the merging yourself. You do this by going to the pull request after it has been approved, and then click on “Merge pull request” at the bottom and then “Confirm merge”
+
+
+On Github directly
+Go to github: https://github.com/ska-sa/katconfig
+Create a new branch by clicking on the dropdown list on available branches (should currently be on the karoo branch) and then typing the name of the new branch you want to create e.g update_m0XX_dig_config where m0XX is the antenna number.
+
+
+
+Once the name of the new branch is entered, you will automatically be redirected to that branch.
+Next you go to static/antennas/m0XX.conf where you will see the contents of the file:
+
+Make the necessary updates to the config file by clicking on the pencil icon at the top right and then replacing the old serial number with the new serial number of the relevant band e.g. in this case M010 UHF digitiser serial no 019 was replaced with UHF digitiser serial no 016 (“digitiser_u = ready:dig-019” replaced with “digitiser_u = ready:dig-016”).
+At the bottom in the “Commit changes” section, replace “Update m0XX.conf” with e.g. in this case “Updating UHF digitiser serial no to 016 on m010”. Make sure “Commit directly to the update_m0XX_dig_config branch” is selected and then click on “Commit changes”.
+
+After committing changes, go back to “katconfig” within the created branch and then click on “Compare & pull request”.
+
+
+At the right hand side at the top next to “Reviewers”, click on the gear icon. It will drop down a list of reviewers to choose from. Type “ppakotze” in the search field to find Pieter K and then click on Pieter K to request him to approve your pull request (It will show a check mark next to his name, and then under “Reviewers” you will see a yellow dot next to his name).
+
+
+
+Then click on “Create pull request”.
+After Pieter K approves the pull request, he usually also merges the pull request, but sometimes you have to do the merging yourself. You do this by going to the pull request after it has been approved, and then click on “Merge pull request” at the bottom and then “Confirm merge”.
+
+

@@ -1,0 +1,91 @@
+
+
+
+\section{Hosts and Servers}
+\begin{itemize}
+
+
+\item Obs machine - where schedule blocks are created, system commands are run, system health is gathered via sensor filtering etc,
+
+\item[$\circ$] \server{kat@obs.mkat.karoo.kat.ac.za}
+\item Portal machine - where all historical and current system logs are obtained
+kat@portal.mkat.karoo.kat.ac.za
+
+\item CBF CMC1 and CMC2 logs (run from the obs machine)
+\begin{lstlisting}[style=DOS]
+cmc-top cmc1.cbf.mkat.karoo.kat.ac.za:7147
+cmc-top cmc2.cbf.mkat.karoo.kat.ac.za:7147
+
+\end{lstlisting}
+
+\item DMC Telnet - see all digitiser logs
+\begin{lstlisting}[style=DOS]
+telnet 10.103.254.2 7147
+
+\end{lstlisting}
+
+
+
+\begin{table}[H]
+	\caption{Links to Meerkat, Kat7 and RTS portals}
+	\label{tab:links}
+	\begin{tabular}[b]{|p{3 cm}|p{4.4 cm} |p{4 cm}|p{4 cm}|} 
+	\hline
+	 \textbf{Instrument}&
+	\textbf{KatGUI}&
+	\textbf{m0xx Digitiser} &
+	\textbf{m0xx Digitiser Switch}\\
+	\hline
+	MeerKAT&
+	\url{http://portal.mkat.karoo.kat.ac.za}&
+	\url{http://10.97.1.14}&
+	\server{10.103.254.2:72xx}
+	
+	
+	\option{ssh admin@10.96.xx.40}\\
+	\hline
+	RTS&
+	\url{http://portal.mkat-rts.karoo.kat.ac.za}
+	\url{http://10.97.8.3}&&\\
+		\hline
+		KAT7&
+		\url{http://portal.kat7.karoo.kat.ac.za}
+		\url{http://192.168.193.11}&&\\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+
+
+
+
+
+\end{itemize}
+
+
+
+
+\section{Utilities and Apps}
+\begin{itemize}
+
+\item KatGUI video feed\\ \url{http://portal.mkat.karoo.kat.ac.za/katgui/video}
+
+\item Servo System debugging tool\\
+\url{http://ops-k1.ops.karoo.kat.ac.za:8081/localfile/Auto_Reports/Servo}
+
+\item Receivers debugging tool\\
+\url{http://ops-k1.ops.karoo.kat.ac.za:8081/localfile/Auto_Reports/Receiver/Daily}
+
+
+\item Scheduler\\
+\url{http://mkat-scheduling.kat.ac.za/}
+
+\item Archive\\			\url{http://kat-archive.kat.ac.za:8080/archive_search/}
+
+\item Source Elevation Notebook \\	\url{http://kat-imager.kat.ac.za:8888/notebooks/AR1_reduction_results/Utilities/Source%20Elevation.ipynb}
+
+\item Site Activities\\		\url{https://docs.google.com/spreadsheets/d/1QNhA2IQ7aMkVMqF2MDGLyVMAWyN9cK5RrtsI-AysknI/edit#gid=191831361}
+\end{itemize}
+
+

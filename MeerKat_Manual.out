@@ -1,0 +1,105 @@
+\BOOKMARK [0][-]{chapter*.8}{List of Abbreviations}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Antenna Positioner}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Antenna Positioner}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Receiver System}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{Digitiser System}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{ CAM System}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.6}{ Correlator BeamFormer}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.7}{ Science Processor}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.8}{Time and Frequency Reference System}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{Instrument Calibration Procedures}{}% 11
+\BOOKMARK [1][-]{section.2.1}{Receiver System Tests \(RTS\) and Calibration}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{Cable Delay Calibration}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.1}{Band Pass Calibration}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Phase-up and Phase Down}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.4}{Pointing Calibration}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.4.1}{Single Dish Pointing}{section.2.4}% 17
+\BOOKMARK [1][-]{section.2.5}{Holography Test}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.6}{Digitiser attenuation levels}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.7}{System Sychoronisation}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.7.1}{Digitiser Master Controller}{section.2.7}% 21
+\BOOKMARK [2][-]{subsection.2.7.2}{Digitiser Synchronisation}{section.2.7}% 22
+\BOOKMARK [2][-]{subsection.2.7.3}{Aantenna Control Unit Synchronisation}{section.2.7}% 23
+\BOOKMARK [0][-]{chapter.3}{Safety Procedure}{}% 24
+\BOOKMARK [1][-]{section.3.1}{ Operational Safety Procedure}{chapter.3}% 25
+\BOOKMARK [0][-]{chapter.4}{System Settings Procedures}{}% 26
+\BOOKMARK [1][-]{section.4.1}{AP checks and setting up}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.1.1}{ Motion Profilers}{section.4.1}% 28
+\BOOKMARK [2][-]{subsection.4.1.2}{To check if profilers are on or off}{section.4.1}% 29
+\BOOKMARK [2][-]{subsection.4.1.3}{ AP Point Error Tiltmeters}{section.4.1}% 30
+\BOOKMARK [2][-]{subsection.4.1.4}{ Reporting AP Struct Tilt x/y in error}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.5}{ SE tilt sensor measurements observations }{section.4.1}% 32
+\BOOKMARK [1][-]{section.4.2}{Receiver Checks and Setting Up }{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.2.1}{Positioning the Receiver Indexer}{section.4.2}% 34
+\BOOKMARK [2][-]{subsection.4.2.2}{Switching LNAs On and Off}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.3}{ Switching 2nd Stage Amplifiers}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.4}{ Helium Compressor}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.5}{ Receivers System Debugging Tools}{section.4.2}% 38
+\BOOKMARK [1][-]{section.4.3}{Digitisers Checks and Setting up }{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.4}{Moving Skarabs}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.5}{Global Synchronisation}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.6}{Digitisers checks and setting up }{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.7}{Requesting which receptors have UHF-band digitisers}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.7.1}{To check if profilers are on or off}{section.4.7}% 44
+\BOOKMARK [2][-]{subsection.4.7.2}{To check which antenna belong to which proxy}{section.4.7}% 45
+\BOOKMARK [1][-]{section.4.8}{AP Point Error Tiltmeters}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.8.1}{SE tilt sensor measurements observations [if wind < 4 m/s]}{section.4.8}% 47
+\BOOKMARK [2][-]{subsection.4.8.2}{Flights}{section.4.8}% 48
+\BOOKMARK [0][-]{chapter.5}{Logging into the system}{}% 49
+\BOOKMARK [1][-]{subsection.5.0.1}{Portal Server}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.0.2}{Obs Server/Machine}{subsection.5.0.1}% 51
+\BOOKMARK [0][-]{chapter.6}{Taking over the system}{}% 52
+\BOOKMARK [1][-]{section.6.1}{Handover Procedures}{chapter.6}% 53
+\BOOKMARK [1][-]{section.6.2}{Booking resource for maintenance}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.3}{ Receiving a resource after maintenance or an update}{chapter.6}% 55
+\BOOKMARK [1][-]{section.6.4}{Integrating a Receptor into Meerkat}{chapter.6}% 56
+\BOOKMARK [0][-]{chapter.7}{Receivers}{}% 57
+\BOOKMARK [1][-]{section.7.1}{Positioning the Receiver Indexer}{chapter.7}% 58
+\BOOKMARK [1][-]{section.7.2}{Switching LNAs on and off}{chapter.7}% 59
+\BOOKMARK [1][-]{section.7.3}{ 2nd Stage Amplifiers}{chapter.7}% 60
+\BOOKMARK [1][-]{section.7.4}{ Helium Compressor}{chapter.7}% 61
+\BOOKMARK [2][-]{subsection.7.4.1}{ Helium compressor pressure fault}{section.7.4}% 62
+\BOOKMARK [2][-]{subsection.7.4.2}{Helium compressor temperature fault}{section.7.4}% 63
+\BOOKMARK [1][-]{section.7.5}{ Receivers system debugging tools}{chapter.7}% 64
+\BOOKMARK [0][-]{chapter.8}{ AP Subsystem}{}% 65
+\BOOKMARK [1][-]{section.8.1}{Motion Profilers}{chapter.8}% 66
+\BOOKMARK [2][-]{subsection.8.1.1}{ To check if profilers are on or off}{section.8.1}% 67
+\BOOKMARK [2][-]{subsection.8.1.2}{ To switch profilers off}{section.8.1}% 68
+\BOOKMARK [2][-]{subsection.8.1.3}{To switch profilers on}{section.8.1}% 69
+\BOOKMARK [1][-]{section.8.2}{ AP Point Error Tiltmeters}{chapter.8}% 70
+\BOOKMARK [2][-]{subsection.8.2.1}{To check the status of the point error tiltmeter sensor}{section.8.2}% 71
+\BOOKMARK [2][-]{subsection.8.2.2}{To enable the tiltmeter sensor}{section.8.2}% 72
+\BOOKMARK [2][-]{subsection.8.2.3}{ To enable all antennas}{section.8.2}% 73
+\BOOKMARK [2][-]{subsection.8.2.4}{To disable the tiltmeter sensor}{section.8.2}% 74
+\BOOKMARK [1][-]{section.8.3}{ Test observations scripts}{chapter.8}% 75
+\BOOKMARK [2][-]{subsection.8.3.1}{SE tilt sensor measurements observations}{section.8.3}% 76
+\BOOKMARK [2][-]{subsection.8.3.2}{ Ap.rate\137test.py}{section.8.3}% 77
+\BOOKMARK [2][-]{subsection.8.3.3}{Reporting AP Struct Tilt x/y in error}{section.8.3}% 78
+\BOOKMARK [0][-]{chapter.9}{Engineering and Maintenance}{}% 79
+\BOOKMARK [1][-]{section.9.1}{ Flights}{chapter.9}% 80
+\BOOKMARK [1][-]{section.9.2}{ ComRAD}{chapter.9}% 81
+\BOOKMARK [0][-]{chapter.10}{Instrument Control Procedure}{}% 82
+\BOOKMARK [1][-]{section.10.1}{The Site Calendar}{chapter.10}% 83
+\BOOKMARK [1][-]{section.10.2}{ Create a New Schedule Block \(SB\)}{chapter.10}% 84
+\BOOKMARK [1][-]{section.10.3}{Retrieve Old Schedule Blocks}{chapter.10}% 85
+\BOOKMARK [1][-]{section.10.4}{ Build a subarray \(SA\) suitable for the SB \(observation\)}{chapter.10}% 86
+\BOOKMARK [1][-]{section.10.5}{ Alternative SA building using IPython session for debugging}{chapter.10}% 87
+\BOOKMARK [1][-]{section.10.6}{ Converting type of SB from 'MANUAL' to 'OBSERVATION'}{chapter.10}% 88
+\BOOKMARK [1][-]{section.10.7}{Reset Attenuations}{chapter.10}% 89
+\BOOKMARK [1][-]{section.10.8}{ Setting digitiser attenuation via ipython session}{chapter.10}% 90
+\BOOKMARK [2][-]{subsection.10.8.1}{ To attenuate all digitiser}{section.10.8}% 91
+\BOOKMARK [2][-]{subsection.10.8.2}{To attenuate a single digitiser}{section.10.8}% 92
+\BOOKMARK [1][-]{section.10.9}{ Delay Calibration and Phase-ups}{chapter.10}% 93
+\BOOKMARK [2][-]{subsection.10.9.1}{Delay calibration SB}{section.10.9}% 94
+\BOOKMARK [2][-]{subsection.10.9.2}{Phaseup calibration SB}{section.10.9}% 95
+\BOOKMARK [0][-]{chapter.11}{ MONITORING PROCEDURES}{}% 96
+\BOOKMARK [0][-]{chapter.12}{Post Observation Quality Control}{}% 97
+\BOOKMARK [0][-]{chapter.13}{LOGGING PROCEDURES}{}% 98
+\BOOKMARK [0][-]{chapter.14}{ Receptor Acceptance And Verification}{}% 99
+\BOOKMARK [0][-]{chapter.15}{Accessing Site and Apps }{}% 100
+\BOOKMARK [0][-]{chapter.16}{Reporting in Operations Meetings }{}% 101
+\BOOKMARK [0][-]{chapter.17}{Conclusion}{}% 102
+\BOOKMARK [0][-]{appendix.A}{Checklist}{}% 103
+\BOOKMARK [0][-]{appendix.B}{Connecting to EDU-VPN}{}% 104
+\BOOKMARK [1][-]{section.B.1}{Procedure for Linux}{appendix.B}% 105

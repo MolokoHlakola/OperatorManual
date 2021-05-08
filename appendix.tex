@@ -1,0 +1,209 @@
+
+Appendix A
+Checklist
+Starting your shift:
+
+Did you read the handover on OPS-CATALYST?
+Did you read the Notice board?
+Have you reserved antennas for site maintenance?
+Will the sync epoch time suffice for the current schedule block?
+Have you opened mattermost communications tool
+Did you run AP Meerkat status script to check availability of AP?
+
+
+
+Subarray Configurations:
+
+Is the band, data product,dump rate,cbf,sdp and USE as per calendar request?
+Have you run reset attenuation after adding antennas from maintenance?
+Have all antennas calibrated for delays? if not, repeat and/or mark faulty ones
+Have you verified if phase-up must be run from calendar request?
+
+
+Observation:
+
+Is the dryrun valid, if not consult AOD
+Are signal displays plotting?
+Do you follow the progress report of the observation
+Are observation files closed without errors
+Is the observation file in the archive?
+Have you checked the cal report and conducted the QA?
+Have you opened JIRAs for encountered system problems?
+Have you created/closed any timeloss logs on the telescope?
+Have you updated the observation document and Operations Minutes?
+
+
+Have you updated the Ops catalyst with the number of antennas available?
+
+
+
+Appendix B
+Connecting to EDU-VPN
+Procedure for Linux
+Go to https://kat-cpt-vpn.kat.ac.za
+Log in using your credentials provided to you.
+Go to the ‘Configurations’ link.
+Click on ‘Continue...’, type a name in the ‘Name’ field and then click ‘Create and Download’. This will create a .ovpn config file with the name as provided in the ‘Name’ field and prompt you to download the file.
+When prompted, save the file somewhere on your drive (the ‘Home’ directory is a good place as the terminal usually opens up with the Home directory as the default directory)
+Assuming you have OpenVPN installed, open a terminal session and type:
+sudo openvpn --config ‘filePath/fileName.ovpn’
+	where ‘filePath’ is the directory in which the config file is saved and ‘fileName’ is the       name of the config file downloaded. For example if the name of the config file is ‘SiteVPN’ and it was saved in the home directory of a computer whose user is called ‘admin’, then the command will be as follows:
+sudo openvpn --config ‘home/admin/SiteVPN.ovpn’
+Once command is executed and the last line is:
+Initialization Sequence Completed
+	then you are connected.
+If you do not have Openvpn installed, then follow the steps below:
+After downloading the .ovpn config file, go to VPN settings
+
+
+
+Click on the ‘plus’ sign to add VPN
+
+Select ‘Import from file...’, you will be directed to your ‘Home’ folders so that you can choose the correct file to import
+
+
+After clicking on the correct .ovpn config file, the following window should appear
+
+
+All of the information from the .ovpn config file has  automatically been filled in, all you need to do is click ‘Add’.
+
+You will see the name of the latest .ovpn config file installed (don't forget to remove the old .ovpn config file).
+
+
+You can now connect to VPN 
+
+
+Don’t forget to delete the old configuration every time that you download a new one on the EduVPN site
+
+
+
+
+Procedure for MacOS
+Download the EduVPN macOS Software from https://kat-cpt-vpn.kat.ac.za/vpn-user-portal/home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Install and run the software.
+
+
+Click "Use Custom URL"
+Add  https://kat-cpt-vpn.kat.ac.za to the "Enter URL"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Press connect
+Once connected to VPN go to https://ipa.kat.ac.za/ipa/ui to set a permanent and secure password for yourself that you will remember.
+If you already have an account but eduVPN couldn't connect
+Go to https://kat-cpt-vpn.kat.ac.za/vpn-user-portal/account and press Revoke
+
+
+
+
+
+
+
+
+
+After pressing connect. This message will be displayed
+
+This window will pop-up and press "Approve application"
+
+
+
+
+
+
+
+
+
+
+
+
+
+Click connect after approving and the you will be connected
+
+Procedure for Windows
+The procedure for connecting to VPN on Windows is more or less the same as that for macOS. 
+
+Download the EduVPN Software for Windows from https://kat-cpt-vpn.kat.ac.za/vpn-user-portal/home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The link to the application will be in your downloads folder, click to install.
+
+Once the installation is done, you can close the installer and click on the EduVPN item in your start menu to launch VPN
+
+
+You will be asked how you would like to use VPN, choose ‘Add other address’.
+
+ kat-cpt-vpn.kat.ac.za/ is the URL of our provider, click ‘connect!’ once you are done. 
+
+Click ‘SARAO Staff access’
+
+You will be directed to the EduVPN site where you will be required to approve the application like the way you would for macOS. After clicking ‘Approve Application’, you should be connected to VPN
+
+
+Everytime you want to connect to EduVPN, just click on the item in the start menu as shown in step 3, there will be no need to  enter the URL of the provider. It should automatically appear, all you have to do is repeat step 6.
+Don’t forget to remove the old application every time you install a new one by clicking ‘Revoke’ on the EduVPN site. 
+
+
+
+
+Appendix C
+Digitisers - Document

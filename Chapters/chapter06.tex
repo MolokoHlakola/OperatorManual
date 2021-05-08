@@ -1,0 +1,139 @@
+
+ \section{Motion Profilers}
+
+A profiler is needed because the servo loops are high gain loops; large position steps in 
+a high gain system would inevitably lead to large overshoots. The profiler smoothens both the velocity and the acceleration profile. It ensures that the position controller is fed with small position increments only. It also provides velocity and acceleration feed forwards. The acceleration feed forward is enabled only in case of transitions between trajectories. Profiler handling is done automatically by the ACU. External commands from ACU or CAM may include any size of position steps within the operating range.
+
+\subsection{ To check if profilers are on or off}
+It is required that profiles are always enabled on the AP at all times. But it is advisable that operators check the status of the profilers form time to time. 
+\begin{lstlisting}[style=DOS]
+ssh kat@obs.mkat.karoo.kat.ac.za
+Ipython
+Import katuilib
+configure_cam('camcam', 'all')
+cam.print_sensors('profiler')
+\end{lstlisting}
+
+
+
+
+
+\subsection{ To switch profilers off}
+\begin{lstlisting}[style=DOS]
+cam.m0XX.req.ap_enable_motion_profiler('elev', 0)
+cam.m0XX.req.ap_enable_motion_profiler('azim', 0)
+\end{lstlisting}
+
+
+
+
+\subsection{To switch profilers on}
+\begin{lstlisting}[style=DOS]
+cam.m0XX.req.ap_enable_motion_profiler('elev', 1)
+cam.m0XX.req.ap_enable_motion_profiler('azim', 1)
+
+\end{lstlisting}
+
+
+\section{ AP Point Error Tiltmeters}
+The tiltmeter measures the the tilt of the antenna tower and by using a tiltmeter, pointing errors due to non-orthogonality of the azimuth axis and deformations of the azimuth structure because of temperature and constant wind can be compensated to a large extent [TBD]. The tiltmeter shall always be enabled.  The status of the tiltmeter can be checked from the ipython session. In the obs  machine do the following:
+\begin{lstlisting}[style=DOS]
+ipython
+import katuilib
+configure_cam('camcam',all)
+\end{lstlisting}
+
+
+\subsection{To check the status of the point error tiltmeter sensor}
+\begin{lstlisting}[style=DOS]
+cam.print_sensors('point_error_tiltmeter')
+\end{lstlisting}
+
+
+\subsection{To enable the tiltmeter sensor}
+\begin{lstlisting}[style=DOS]
+cam.m00X.req.ap_enable_point_error_tiltmeter(1)
+\end{lstlisting}
+
+
+
+The output will be as follows
+\begin{lstlisting}[style=DOS]
+!ap-enable-point-error-tiltmeter ok
+\end{lstlisting}
+
+
+
+\subsection{ To enable all antennas}
+\begin{lstlisting}[style=DOS]
+cam.ants.req.ap_enable_point_error_tiltmeter(1)
+\end{lstlisting}
+
+
+
+\subsection{To disable the tiltmeter sensor}
+\begin{lstlisting}[style=DOS]
+cam.m00X.req.ap_enable_point_error_tiltmeter(0)
+\end{lstlisting}
+
+
+
+The output will be as follows
+\begin{lstlisting}[style=DOS]
+!ap-enable-point-error-tiltmeter ok
+\end{lstlisting}
+
+
+ 
+\section{ Test observations scripts} 
+\subsection{SE tilt sensor measurements observations} 
+The purpose of the tilt measurements is to look at calibration tilt sensors and also to calculate tilt sensor offset parameters and compare these with set values. From a single test the calculated tilt sensor parameters did not match that closely to the set values. We were hoping to take many measurements so that we could see from the average of a number of low wind measurements if the calculated value matched the set values, especially for receptors where the calibration had recently been checked.   The next step was going to be to get to a point whereby we could automatically write the calculated values to the ACU to update the values. We have not reached that point yet.
+
+
+\subsection{ Ap.rate\_test.py}
+
+This script rotates the AP at elevation 20 tilt measurements. This script is no longer used and was applicable during acceptance testing and commissioning.
+\subsubsection{ Ap.rate\_test.py fails due to timeout}
+\begin{itemize}
+	\item[] \textbf{cause}: the timeout happens because some of the antennas become unresponsive during the measurement.
+	\item[] \textbf{consequences}:  currently this causes the script to terminate with a messy error message $-$ fortunately it doesn’t mess up the telescope state (as it used to do earlier in the year). when this happens the first 1/2 of the script gets completed correctly, just the second 1/2 is interrupted. The second 1/2 is essentially a repeat of the first, so there’s still useful data here.
+	\item[] \textbf{recommendations}: the current behaviour is messy but not intolerable.  the script should be made more robust against this, to continue with the remaining antennas.
+		
+\end{itemize}
+
+
+
+
+
+
+\subsection{Reporting AP Struct Tilt x/y  in error}
+Risk
+\begin{itemize}
+
+\item{} Pointing offsets
+\end{itemize}
+Procedure 
+\begin{itemize}
+\item{} Inspect the status of tilt sensors in the GUI sensor list  
+\begin{itemize}
+
+	\item[] ap.struct$-$tilt$-$x  	\textcolor{red} {error}  	$2019-07-12 \quad 14:59:06$
+	\item[] ap.struct$-$tilt$-$y  	\textcolor{red} {error} $2019-07-12 \quad 14:59:16-190.64$
+\end{itemize}
+
+
+
+When reporting this error include the following in the JIRA to determine the course and action.
+\begin{itemize}
+	\item[$\circ$] Check the  ap temp $-$ plot sensorgraph
+	\item[$\circ$] Check ap motion $-$ plot azim and elev actual sensors
+	\item[$\circ$] Is $x/y$ tilt getting larger(correction value)? (Plot struct tilt $x/y$ on sensorgraph)
+	\item[$\circ$] Or is it a sudden jump to error? 
+	\item[$\circ$] Checking these trends below will answer the question as to whether this is a matter of calibrating with correct values or is it a structural problem or not.
+	
+	
+	
+	
+\end{itemize}
+\item{} Report the JIRA to site AP teachnicians
+\end{itemize}

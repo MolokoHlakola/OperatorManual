@@ -1,9 +1,122 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Three simple graphs\relax }}{8}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Overview of MeerKAT System\relax }}{16}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces MeerKAT telescope signal path\relax }}{16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces CAM GUI home page\relax }}{21}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces CAM GUI Subarray1 window\relax }}{21}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Terminal ssh login to obs machine\relax }}{22}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces CAM GUI sensor list filtered with "Control"\relax }}{24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces CAM GUI sensor list filtered by "remaining".\relax }}{25}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces SDP waterfall plot.\relax }}{26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Receiver System Hellium presure errors\relax }}{31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Receiver System temperature errors\relax }}{31}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Sensor list showing LNA status\relax }}{35}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Sensor list showing stage 2 amplifiers\relax }}{36}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Receiver System Hellium presure errors\relax }}{36}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Receiver System temperature errors\relax }}{37}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Google calendar for site activities\relax }}{43}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces SB pasted on ipython sesion\relax }}{44}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces CAM GUI approved SB \relax }}{44}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Completed SB search\relax }}{44}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces SB search in the obs machine\relax }}{45}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Open SB log file\relax }}{45}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Active subarray with \texttt {cbf\_1} and \texttt {sdp\_1} resources\relax }}{46}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Verifying a SB \relax }}{46}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Manual SB\relax }}{47}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces A SB assigned to a subarray\_2\relax }}{47}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Approved SB\relax }}{47}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Edit the approved SB\relax }}{48}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Edit the approved SB\relax }}{48}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Save the edited SB \relax }}{48}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Acceptable waterfall plot\relax }}{51}
+\contentsline {figure}{\numberline {8.16}{\ignorespaces CAM GUI sensor list to check indexer position\relax }}{52}
+\contentsline {figure}{\numberline {8.17}{\ignorespaces CAM GUI sensor list to check digitiser marking\relax }}{52}
+\contentsline {figure}{\numberline {8.18}{\ignorespaces SDP flag count plot with one F-host disabled\relax }}{53}
+\contentsline {figure}{\numberline {8.19}{\ignorespaces CBF health dashboard\relax }}{54}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces CBF health pie charts\relax }}{54}
+\contentsline {figure}{\numberline {8.21}{\ignorespaces SDP "no descriptors" error on Grafana\relax }}{55}
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Part of band missing due to "no descriptors" error\relax }}{55}
+\contentsline {figure}{\numberline {8.23}{\ignorespaces SDP sensor list filtered by "desc"\relax }}{56}
+\contentsline {figure}{\numberline {8.24}{\ignorespaces Subarray product-ids\relax }}{57}
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Data loss due to vaccs sync error\relax }}{58}
+\contentsline {figure}{\numberline {8.26}{\ignorespaces CBF vaccs sync sensor graph\relax }}{58}
+\contentsline {figure}{\numberline {8.27}{\ignorespaces CBF mismatched sequence numbers error log\relax }}{59}
+\contentsline {figure}{\numberline {8.28}{\ignorespaces CBF array name list\relax }}{59}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Meerkat status script output for U-band\relax }}{60}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Meerkat status script output for L-band\relax }}{60}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces SDP sensors\relax }}{61}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces SDP Grafana dashboard\relax }}{62}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces SDP Grafana dashboard with no descriptors errors\relax }}{62}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Observation progress log\relax }}{63}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces SDP signal display menu \relax }}{63}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Default signal display\relax }}{63}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Horizontal polarisation plot (wtabhh)\relax }}{64}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Vertical polarisation plot (wtabvv)\relax }}{64}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Receptor pointing plot\relax }}{65}
+\contentsline {figure}{\numberline {9.12}{\ignorespaces CAM GUI List of critical sensors\relax }}{65}
+\contentsline {figure}{\numberline {9.13}{\ignorespaces Grafana dashboard for SDP status\relax }}{66}
+\contentsline {figure}{\numberline {9.14}{\ignorespaces Output of antenna monitoring script\relax }}{67}
+\contentsline {figure}{\numberline {9.15}{\ignorespaces Critical observation sensors with hidden nominal sensors\relax }}{67}
+\contentsline {figure}{\numberline {9.16}{\ignorespaces Receptor pointing plot\relax }}{68}
+\contentsline {figure}{\numberline {9.17}{\ignorespaces CBF monitor pie plots\relax }}{68}
+\contentsline {figure}{\numberline {9.18}{\ignorespaces CAM GUI main menu for sensors\relax }}{70}
+\contentsline {figure}{\numberline {9.19}{\ignorespaces CAM GUI Weather plots\relax }}{70}
+\contentsline {figure}{\numberline {9.20}{\ignorespaces Output of \_net.sh script $-$ Spine switch status\relax }}{72}
+\contentsline {figure}{\numberline {9.21}{\ignorespaces Output of \_net.sh script $-$ All CAM nodes status\relax }}{72}
+\contentsline {figure}{\numberline {9.22}{\ignorespaces Output of \_net.sh script $-$ Spine switch status\relax }}{72}
+\contentsline {figure}{\numberline {9.23}{\ignorespaces Output of \_net.sh script $-$ Digitiser status\relax }}{73}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces SDP main menu\relax }}{74}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces SDP Dashboard\relax }}{75}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces SDP Capturing\relax }}{75}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces SDP Postprocessing\relax }}{75}
+\contentsline {figure}{\numberline {10.5}{\ignorespaces SDP batch jobs\relax }}{75}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Receiver model date sensors\relax }}{84}
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Receiver model downloads\relax }}{85}
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Receiver model files downloaded\relax }}{85}
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Receiver model password\relax }}{85}
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Receiver model git push succesful\relax }}{86}
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Receiver model github compare and pull request\relax }}{86}
+\contentsline {figure}{\numberline {12.7}{\ignorespaces Receiver model github pull request\relax }}{87}
+\contentsline {figure}{\numberline {12.8}{\ignorespaces Github add pull request reviewers \relax }}{87}
+\contentsline {figure}{\numberline {12.9}{\ignorespaces S-band receiver temperature sensor\relax }}{89}
+\contentsline {figure}{\numberline {12.10}{\ignorespaces S-band time synchronisation epoch sensor\relax }}{89}
+\contentsline {figure}{\numberline {12.11}{\ignorespaces Example of a S-band array\relax }}{90}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Operations meeting document google folder\relax }}{95}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Linux VPN settings \relax }}{100}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Linus add vpn dialog box\relax }}{101}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces CAM GUI approved SB \relax }}{101}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces CAM GUI approved SB \relax }}{102}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces CAM GUI approved SB \relax }}{103}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces CAM GUI approved SB \relax }}{103}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Linux EduVPN approve dialog box \relax }}{104}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces MacOS EduVPN download page \relax }}{104}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces CAM GUI approved SB \relax }}{105}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces MacOS EduVPN download page \relax }}{105}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces CAM GUI approved SB \relax }}{106}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces CAM GUI approved SB \relax }}{107}
+\contentsline {figure}{\numberline {B.13}{\ignorespaces CAM GUI approved SB \relax }}{107}
+\contentsline {figure}{\numberline {B.14}{\ignorespaces MacOS EduVPN connection in progress \relax }}{108}
+\contentsline {figure}{\numberline {B.15}{\ignorespaces MacOS EduVPN aprrove application dialog \relax }}{109}
+\contentsline {figure}{\numberline {B.16}{\ignorespaces CAM GUI approved SB \relax }}{110}
+\contentsline {figure}{\numberline {B.17}{\ignorespaces MacOS EduVPN connection in progress \relax }}{110}
+\contentsline {figure}{\numberline {B.18}{\ignorespaces MacOS EduVPN connection in progress \relax }}{111}
+\contentsline {figure}{\numberline {B.19}{\ignorespaces MacOS EduVPN connection in progress \relax }}{112}
+\contentsline {figure}{\numberline {B.20}{\ignorespaces MacOS EduVPN connection in progress \relax }}{113}
+\contentsline {figure}{\numberline {B.21}{\ignorespaces MacOS EduVPN connection in progress \relax }}{113}
+\contentsline {figure}{\numberline {B.22}{\ignorespaces MacOS EduVPN connection in progress \relax }}{114}
+\contentsline {figure}{\numberline {B.23}{\ignorespaces MacOS EduVPN connection in progress \relax }}{115}

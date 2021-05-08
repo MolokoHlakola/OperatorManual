@@ -1,0 +1,308 @@
+
+\section{Incidents}
+On the Gui under User-Logs type any currently occuring issues on the telescope, be it issues regarding building subarrays or issues with certain receptors and their performance in an observation. Use proper tags including the time-loss tag if the issue results in time being lost. The following is a list of important and relevant tags to use together with the time-loss tag:
+\begin{itemize}
+	\item RECEIVER - for receiver related issues
+	\item CBF\_Resource - for issues related to cbf
+	\item SP\_Resource - for issues in SDP/SP 
+	\item AP - for AP failures and AP maintenance
+	\item Network -  in the case of network issues
+	\item M0XX - for receptor specific issues
+	\item Maintenance - for all maintenance work on the
+\end{itemize}
+ \section{ Receptor Requested For Maintenance}
+\begin{itemize}
+\item When a receptor goes into maintenance, a user log is automatically generated when the operator places that antenna into maintenance. It is important to keep it open-ended, i.e remove the end-time on that log and add the proper tags.
+\item Be sure to click the NOW button which closes the log when an open-ended log needs to be closed, as soon as that issue is resolved.
+\item For an issue that was closed and keeps occuring, keep updating the relevant log and update the time by pressing NOW .
+\item Format of the log - the tags serve as headings, what then needs to follow is the content:
+\end{itemize}
+\section{ What Goes Into A Log}
+A human-readable discussion of:
+\begin{itemize}
+\item What was being done by the operator on the telescope
+\item What the operator saw first and identified as symptom of an issue
+\item Attach screenshot, a link(to subsystem logs or jira tickets or a procedure that was followed), an email detailing the activity etc
+\item What the operator did in order to resolve the issue, add a link to a procedure that was followed or documented from the experience
+\item Close the log if the issue has been resolved by pressing the NOW button
+\end{itemize}
+\section{ Other Notes}
+Apart from writing logs, an operator needs to be a good reader of logs. You can be as good at writing logs as you are at reading them.
+
+\section{ Reacting to anomalies}
+To report a fault to the relevant subsystem:
+\begin{itemize}
+\item Perform root cause analysis (any method of problem solving used to identify faults or problems) 
+\begin{itemize}
+\item[$\circ$] Understand what the sensor is reporting
+\item[$\circ$] Time and date of fault/error
+\item[$\circ$] Description of the event or fault
+\item[$\circ$] Activity of the component in question prior to the event/fault
+\item[$\circ$] Include visual information of:
+\begin{itemize}
+	\item list showing subsystem error(s)
+	\item  katgui alarms
+	sensor graph  
+	\item Grep error logs from the proxy in question
+	\item  History or link to previous identical/similar faults
+\end{itemize}
+\end{itemize}
+
+\item Open a JIRA 
+\begin{itemize}
+\item[$\circ$] Ensure the Jira has the above details from root causes analysis before logging it
+\item[$\circ$] Comment by: 
+\begin{itemize}
+\item adding the extracted logs and
+\item other possible causes, the fault could link to another component or subsystem.
+\end{itemize}
+\end{itemize}
+\item Logging a fault or unusual behaviour in the user log:
+\begin{itemize}
+\item[$\circ$] if the resource is placed in maintenance leave the end time open until the resource is handed back healthy to operations.
+\end{itemize}
+\item Fault correction
+\begin{itemize}
+\item[$\circ$] No signal displays 
+\begin{itemize}
+\item No data is being captured - investigate
+\end{itemize}
+\end{itemize}
+\begin{itemize}
+\item[$\circ$] Low output on the signal displays:
+\begin{itemize}
+\item Check if LNA’s are on
+\item Check if gains are set correctly for the \item product being used
+\item Check attenuation levels
+\item Check digitiser sensors
+\item Check digitiser pps offset
+\end{itemize}
+
+
+\item[$\circ$] High output on the signal displays
+\begin{itemize}
+\item Check health on digitisers
+\item Check using sensorgraph where the power increases
+\item Check on Pointing window in GUI if there are any satellites, or find out if there could be terrestrial  RFI on site
+\item Check digitiser pps offset
+\end{itemize}
+
+
+\item[$\circ$] No fringes
+\begin{itemize}
+\item Check if delay tracking is on
+\item Check delay model, normal value for the cable delay should be approx 5800…
+\item See the observer sensor on receptors
+\item Verify that the delay calibration script has been run after the subarray activation
+\end{itemize}
+
+\item[$\circ$] AP Failure
+\begin{itemize}
+\item An AP failure can be seen in the progress of the observation or CAM flagging on flagcount.
+\item Check the Sensor List of the AP in the GUI - hide all nominal sensors.
+\item If not clear from Sensor List what the issue is, go to \url{http://ops-k1.ops.karoo.kat.ac.za:8081/localfile/Auto\_Reports/Servo}
+For logs go to:
+\begin{lstlisting}[style=DOS]
+ssh kat@portal.mkat.karoo.kat.ac.za
+Cd /var/kat/log
+\end{lstlisting}
+
+\item Draw a sensorgraph of the fault and open JIRA.
+This procedure includes when AP is not locking on target.
+\end{itemize}
+\item[$\circ$] AP not locking on target\\
+\textbf{Risks}
+\begin{itemize}
+\item AP stuck and not moving - not collecting requested data.
+\item Antenna number reduction - reduced number of baselines, compromised U/V coverage
+\end{itemize}                                  
+\textbf{Procedure}
+\begin{itemize}
+ \item In Receptor Pointing, verify that the ap is not locking (Lock: True or False
+\item Record the time from the Gui for the purpose of Log searching in step 4
+\item Check the AP Sensor list,hide nominal and warning status, then see which AP sensors are in error, probably there is none except ap device health
+\item Reset AP failures in obs machine and do the following:
+\item Check the AP mode in the sensor list, if ap mode is in shutdown, set the ap mode to stop otherwise it will not move.
+\begin{lstlisting}[style=DOS]
+ssh kat@obs.mkat.karoo.kat.ac.za, ipython, import katuilib, 
+configure\_cam('camcam','all')
+cam.m0xx.req.ap\_reset\_failures()
+cam.m0xx.req.mode('STOP')
+\end{lstlisting}
+
+The AP should start receiving commands and moving
+\begin{lstlisting}[style=DOS]
+ssh kat@portal.mkat.karoo.kat.ac.za
+cd /var/kat/log
+less filename(e.g kat.m007.2020-08-31.log)
+\end{lstlisting}
+  OR use \option{grep} commands to search for a particular string within a file.
+ Using the timestamp in step 2, look at what sensors went into failure,error or degraded state. (Name your JIRA as per sensor name in error)
+\item Draw a sensorgraph to verify if it was a real error and for how long it has been so
+\item Open Jira and populate it with all your findings, assign it to Audrey to moderate.
+\item If all fails - check to see antenna proxy logs to see if it is updating or not - if not restart the AP proxy from the GUI - UNDER PROCESS CONTROL. 
+\end{itemize} 
+\end{itemize}   
+\end{itemize}  
+         
+\section{Creating a Jira}
+\begin{itemize}
+\item Record the following (Also see section Above “Reacting to anomalies”:
+
+	\begin{itemize} 
+
+\item[$\circ$] Date and time of when the error occurred.
+\item[$\circ$] The “Description” of the observation that was running.
+\item[$\circ$] The “Proposal ID” of the observation that was running.
+\item[$\circ$] Attached the link to the progress report of that current observation.
+\item[$\circ$] A Screenshot of the signal display recording the behaviour of the antenna in error.
+ \begin{itemize}
+ 	 
+ 
+\item Make use of the following filters on the Signal display
+\begin{itemize}
+
+\item Load default2 (plotting the spectrum of only the antenna in question)
+\item Load default2 (plotting the antenna in question against other antennas that is in nominal state)
+Wtabhh and wtabvv
+\end{itemize}
+\item A screenshot of the sensor list showing the sensor that is in error.
+\begin{itemize}
+\item Draw a sensorgraph or the error, confirming the time when the antenna went into error and when the error cleared. (Helps to Identify error behaviour and occurence)
+\item Attach any other related information recorded in screenshots to the ticket.
+\end{itemize}
+\end{itemize}
+\end{itemize} 
+\item On the Jira System, Click create, then:
+\begin{itemize}
+
+\item[$\circ$] Select “Project”:
+\begin{itemize}
+\item Operations (OPS)
+\end{itemize} 
+\item[$\circ$] Select “Issue Type”:
+\begin{itemize}
+\item Select “Failure”, to report any failure.
+\item Select “Task”, if you're assigning a Job for someone to complete/do.
+\end{itemize}
+\item[$\circ$] Summary:
+\begin{itemize}
+\item Write one sentence describing the error/irregular behaviour and include the number of the antenna.
+ns (OPS)
+\end{itemize}
+\item[$\circ$] Components:
+\begin{itemize}
+\item Select the component in question by searching through some of the available tags. Select:
+\begin{itemize}
+\item L-band RX,  for l-band receiver related issues.
+\item U-band RX, for u-band receiver related issues.
+\item AP, for AP related issues.
+\item etc.
+\end{itemize}
+\end{itemize}
+\item[$\circ$] Labels:
+\begin{itemize}
+\item Almost the same as above, but in this case you select the labels of the component/s in question
+\begin{itemize}
+\item l-band , for l-band related issues.
+\item UHF, for u-band related issues.
+\item etc. 
+\end{itemize}
+\end{itemize}
+\item[$\circ$] Description:
+\begin{itemize}
+\item Re-iterate the start time of the error, the description of the observation, the error that occured and on which antenna the error occurred.
+\item Describe and list all actions taken by you, the Lead Operator, in an attempt to clear the error.
+\end{itemize}
+\item[$\circ$] Assignee
+\begin{itemize}
+\item Assign the Jira to the contact person of the subsystem in question, If not sure, assign the ticket to Audrey or Clifford.
+\end{itemize}
+\item[$\circ$] After Creating the Jira make sure to add all related subsystems as watchers. And also tag your fellow operators in the ticket. 
+\end{itemize}
+\end{itemize}
+
+
+\section{ Who to assign the JIRA to?}
+\begin{table}[h]
+	\caption{List of JIRA asignees}
+	\label{tab:table1}
+  \centering
+	\begin{tabular}[b]{|p{4cm}|p{8cm}|p{4cm}|}
+		\hline
+		\textbf{Componen}t&\textbf{Description}&\textbf{Component lead}\\
+		\hline
+		CBF&
+		Issues that affect moving SKARABS, data loss, spectrum,etc. Anything relating to the correlator or beamformer.&Alec Rust\\
+		\hline
+		KDRA&
+		Karoo Array Processor Building.&
+		Andre Walker\\
+		\hline
+		CAM&
+		Control and monitoring Software and GUI issues.&
+		CAM Support\\
+		\hline
+		Operations&
+		Issues relating to Operations.&
+		Clifford Gumede\\
+		\hline
+		S-Band Dig&
+		This refers to the S-band packetiser which is like a digitiser&
+		Dave Horn\\
+		\hline
+		USE&
+		All User Supplied Equipment (TUSE, FBFUSE, APSUSE and BLUSE) related issues.&
+		Dave Horn\\
+		\hline
+		U-Band Dig&
+		Issues relating to the UHF digitiser&
+		Henno Kriel\\
+		\hline
+		L-Band Dig&
+		Relate to L-band digitiser errors,mainly hardware sensors like PPS&
+		Henno Kriel\\
+		\hline
+		U-Band Rx&
+		Issues relating to the UHF band receiver&
+		Ben Jordaan\\
+		\hline
+		L-Band Rx&
+		All issues relating to the L-band receiver system, including RSC and bandpass issues.&
+		Ben Jordaan\\
+		\hline
+		S-Band Rx&
+		Refers to the s-band receiver. The receiver is supplied by MPI and is managed by Pieter Kotze and Ben Jordaan.&
+		Ben Jordaan\\
+		\hline
+		TFR&
+		Time and Frequency Reference System (TFS)&
+		Johan Burger\\
+		\hline
+		Digitiser&
+		Refers to general digitiser issues and is not band specific. Issue could be with global sync or any software which Marc can assist with. &
+		Marc\\
+		\hline
+		Servo System&
+		Refers to all servo system parts, like servo amplifiers, servo motors, encoders, azimuth switch and all motor failures&
+		Mike Chalmers\\
+		\hline
+		AP&
+		Refers to antenna positioner(AP) physical structure or mechanical components, like, structural damage, pointing issues, etc.&
+		Matthys Maree\\
+		\hline
+		S-band System&
+		Refers to faults which occurred during an s-band observation, including CBF, CAM, SDP, TFR and signal chain for s-band issues.&
+		Pieter Kotze\\
+		\hline
+		SDP&
+		Refers to issues relating to  components of the Science Data Process (SDP) subsystem such as Signal Displays, Grafana, SARAO Archive, and sometimes script failures.&
+		Rosly Renil\\
+	
+		
+		\hline
+	\end{tabular}
+
+\end{table}
+
+Table 4

@@ -1,38 +1,152 @@
-\contentsline {chapter}{\numberline {1}Introduction}{8}
-\contentsline {section}{\numberline {1.1}Int}{8}
-\contentsline {chapter}{\numberline {2}Instrument Calibration Procedures}{9}
-\contentsline {section}{\numberline {2.1}Receiver System Tests (RTS) and Calibration}{10}
-\contentsline {section}{\numberline {2.2}Cable Delay Calibration}{10}
-\contentsline {subsection}{\numberline {2.2.1}Band Pass Calibration}{10}
-\contentsline {section}{\numberline {2.3}Phase-up and Phase Down}{10}
-\contentsline {section}{\numberline {2.4}Pointing Calibration}{10}
-\contentsline {subsection}{\numberline {2.4.1}Single Dish Pointing}{10}
-\contentsline {subsubsection}{Pointing Check}{10}
-\contentsline {subsubsection}{Interfrometric Pointing}{10}
-\contentsline {subsubsection}{AP Motion Profilers}{10}
-\contentsline {section}{\numberline {2.5}Holography Test}{10}
-\contentsline {section}{\numberline {2.6}Digitiser attenuation levels}{10}
-\contentsline {section}{\numberline {2.7}System Sychoronisation}{10}
-\contentsline {subsection}{\numberline {2.7.1}Digitiser Master Controller}{10}
-\contentsline {subsection}{\numberline {2.7.2}Digitiser Synchronisation}{10}
-\contentsline {subsection}{\numberline {2.7.3}Aantenna Control Unit Synchronisation}{10}
-\contentsline {chapter}{\numberline {3}Safety Procedure}{11}
-\contentsline {section}{\numberline {3.1} Operational Safety Procedure}{11}
-\contentsline {chapter}{\numberline {4}System Settings Procedures}{12}
-\contentsline {section}{\numberline {4.1}Moving Skarabs}{12}
-\contentsline {section}{\numberline {4.2}Global Synchronisation}{13}
-\contentsline {subsection}{\numberline {4.2.1}Mark Digitiser Ready}{14}
-\contentsline {section}{\numberline {4.3}Requesting which receptors have UHF-band digitisers}{14}
-\contentsline {section}{\numberline {4.4}Receivers}{14}
-\contentsline {section}{\numberline {4.5}AP Motion Profilers}{14}
-\contentsline {subsection}{\numberline {4.5.1}To check if profilers are on or off}{14}
-\contentsline {subsubsection}{To switch profilers off}{14}
-\contentsline {subsubsection}{To switch profilers on}{14}
-\contentsline {subsection}{\numberline {4.5.2}To check which antenna belong to which proxy}{14}
-\contentsline {section}{\numberline {4.6}AP Point Error Tiltmeters}{14}
-\contentsline {subsection}{\numberline {4.6.1}SE tilt sensor measurements observations [if wind < 4 m/s]}{14}
-\contentsline {subsection}{\numberline {4.6.2}Flights}{14}
-\contentsline {chapter}{\numberline {5}Chapter Three Title}{15}
-\contentsline {chapter}{\numberline {6}Chapter Four Title}{16}
-\contentsline {chapter}{\numberline {7}Conclusion}{17}
-\contentsline {chapter}{\numberline {A}Appendix Title}{18}
+\contentsline {chapter}{List of Acronyms}{5}
+\contentsline {chapter}{List of Figures}{9}
+\contentsline {chapter}{List of Tables}{10}
+\contentsline {chapter}{\numberline {1}Introduction}{15}
+\contentsline {section}{\numberline {1.1}Antenna Positioner}{15}
+\contentsline {section}{\numberline {1.2}Antenna Positioner}{16}
+\contentsline {section}{\numberline {1.3}Receiver System}{17}
+\contentsline {section}{\numberline {1.4}Digitiser System}{17}
+\contentsline {section}{\numberline {1.5} CAM System}{18}
+\contentsline {section}{\numberline {1.6} Correlator BeamFormer}{18}
+\contentsline {section}{\numberline {1.7} Science Processor}{18}
+\contentsline {section}{\numberline {1.8}Time and Frequency Reference System}{19}
+\contentsline {chapter}{\numberline {2}Logging into the system}{20}
+\contentsline {subsection}{\numberline {2.0.1}Portal Server}{20}
+\contentsline {subsection}{\numberline {2.0.2}Obs Server/Machine}{21}
+\contentsline {chapter}{\numberline {3}Handover Procedures}{23}
+\contentsline {section}{\numberline {3.1}Operator Handover Procedures}{23}
+\contentsline {section}{\numberline {3.2}Booking resource for maintenance}{24}
+\contentsline {section}{\numberline {3.3} Receiving a resource after maintenance or an update}{24}
+\contentsline {section}{\numberline {3.4}Integrating a Receptor into Meerkat}{25}
+\contentsline {chapter}{\numberline {4}System Settings Procedures}{27}
+\contentsline {section}{\numberline {4.1}AP checks and setting up}{27}
+\contentsline {subsection}{\numberline {4.1.1} Motion Profilers}{27}
+\contentsline {subsection}{\numberline {4.1.2}To check if profilers are on or off}{27}
+\contentsline {subsection}{\numberline {4.1.3} AP Point Error Tiltmeters}{28}
+\contentsline {subsection}{\numberline {4.1.4} Reporting AP Struct Tilt x/y in error}{28}
+\contentsline {subsection}{\numberline {4.1.5} SE tilt sensor measurements observations }{29}
+\contentsline {section}{\numberline {4.2}Receiver Checks and Setting Up }{29}
+\contentsline {subsection}{\numberline {4.2.1}Positioning the Receiver Indexer}{29}
+\contentsline {subsection}{\numberline {4.2.2}Switching LNAs On and Off}{29}
+\contentsline {subsection}{\numberline {4.2.3} Switching 2nd Stage Amplifiers}{30}
+\contentsline {subsection}{\numberline {4.2.4} Helium Compressor}{30}
+\contentsline {subsubsection}{ Helium compressor pressure fault}{31}
+\contentsline {subsubsection}{Helium compressor temperature fault}{31}
+\contentsline {subsection}{\numberline {4.2.5} Receivers System Debugging Tools}{32}
+\contentsline {section}{\numberline {4.3}Digitisers Checks and Setting up }{32}
+\contentsline {section}{\numberline {4.4}Moving Skarabs}{32}
+\contentsline {section}{\numberline {4.5}Global Synchronisation}{33}
+\contentsline {section}{\numberline {4.6}Digitisers checks and setting up }{33}
+\contentsline {section}{\numberline {4.7}Requesting which receptors have UHF-band digitisers}{33}
+\contentsline {subsection}{\numberline {4.7.1}To check if profilers are on or off}{33}
+\contentsline {subsubsection}{To switch profilers off}{33}
+\contentsline {subsubsection}{To switch profilers on}{33}
+\contentsline {subsection}{\numberline {4.7.2}To check which antenna belong to which proxy}{33}
+\contentsline {section}{\numberline {4.8}AP Point Error Tiltmeters}{33}
+\contentsline {subsection}{\numberline {4.8.1}SE tilt sensor measurements observations [if wind < 4 m/s]}{33}
+\contentsline {subsection}{\numberline {4.8.2}Flights}{33}
+\contentsline {chapter}{\numberline {5}Receiver Systems}{34}
+\contentsline {section}{\numberline {5.1}Positioning the Receiver Indexer}{34}
+\contentsline {section}{\numberline {5.2}Switching LNAs on and off}{35}
+\contentsline {section}{\numberline {5.3} 2nd Stage Amplifiers}{35}
+\contentsline {section}{\numberline {5.4} Helium Compressor}{36}
+\contentsline {subsection}{\numberline {5.4.1} Helium compressor pressure fault}{36}
+\contentsline {subsection}{\numberline {5.4.2}Helium compressor temperature fault}{36}
+\contentsline {section}{\numberline {5.5} Receivers system debugging tools}{37}
+\contentsline {chapter}{\numberline {6} AP Subsystem}{39}
+\contentsline {section}{\numberline {6.1}Motion Profilers}{39}
+\contentsline {subsection}{\numberline {6.1.1} To check if profilers are on or off}{39}
+\contentsline {subsection}{\numberline {6.1.2} To switch profilers off}{39}
+\contentsline {subsection}{\numberline {6.1.3}To switch profilers on}{39}
+\contentsline {section}{\numberline {6.2} AP Point Error Tiltmeters}{39}
+\contentsline {subsection}{\numberline {6.2.1}To check the status of the point error tiltmeter sensor}{40}
+\contentsline {subsection}{\numberline {6.2.2}To enable the tiltmeter sensor}{40}
+\contentsline {subsection}{\numberline {6.2.3} To enable all antennas}{40}
+\contentsline {subsection}{\numberline {6.2.4}To disable the tiltmeter sensor}{40}
+\contentsline {section}{\numberline {6.3} Test observations scripts}{40}
+\contentsline {subsection}{\numberline {6.3.1}SE tilt sensor measurements observations}{40}
+\contentsline {subsection}{\numberline {6.3.2} Ap.rate\_test.py}{40}
+\contentsline {subsubsection}{ Ap.rate\_test.py fails due to timeout}{41}
+\contentsline {subsection}{\numberline {6.3.3}Reporting AP Struct Tilt x/y in error}{41}
+\contentsline {chapter}{\numberline {7}Engineering and Maintenance}{42}
+\contentsline {section}{\numberline {7.1} Flights}{42}
+\contentsline {section}{\numberline {7.2} ComRAD}{42}
+\contentsline {chapter}{\numberline {8}Telescope Control Procedure}{43}
+\contentsline {section}{\numberline {8.1}The Site Calendar}{43}
+\contentsline {section}{\numberline {8.2} Create a New Schedule Block (SB)}{44}
+\contentsline {section}{\numberline {8.3}Retrieve Old Schedule Blocks}{44}
+\contentsline {section}{\numberline {8.4} Build a subarray (SA) suitable for the SB (observation)}{45}
+\contentsline {section}{\numberline {8.5} Alternative SA building using IPython session for debugging}{47}
+\contentsline {section}{\numberline {8.6} Converting type of SB from 'MANUAL' to 'OBSERVATION'}{47}
+\contentsline {section}{\numberline {8.7}Reset Attenuations}{48}
+\contentsline {section}{\numberline {8.8} Setting digitiser attenuation via ipython session}{49}
+\contentsline {subsection}{\numberline {8.8.1} To attenuate all digitiser}{49}
+\contentsline {subsection}{\numberline {8.8.2}To attenuate a single digitiser}{50}
+\contentsline {section}{\numberline {8.9} Delay Calibration and Phase-ups}{50}
+\contentsline {subsection}{\numberline {8.9.1}Delay calibration SB}{50}
+\contentsline {subsection}{\numberline {8.9.2}Phaseup calibration SB}{50}
+\contentsline {subsection}{\numberline {8.9.3} Delay Cal Script Fails:}{51}
+\contentsline {section}{\numberline {8.10} What could go wrong?}{52}
+\contentsline {subsection}{\numberline {8.10.1} Failed to select band while building array}{52}
+\contentsline {subsection}{\numberline {8.10.2} Multiple F-hosts in error after subarray build}{53}
+\contentsline {subsection}{\numberline {8.10.3} Marking SKARAB Board on Standby}{53}
+\contentsline {subsection}{\numberline {8.10.4} No Descriptor Errors}{54}
+\contentsline {subsection}{\numberline {8.10.5} Diagnostics}{54}
+\contentsline {subsection}{\numberline {8.10.6} How to fix this}{55}
+\contentsline {subsection}{\numberline {8.10.7}CBF Data Capture Failed}{56}
+\contentsline {subsection}{\numberline {8.10.8}SDP Capture Done Failure}{57}
+\contentsline {subsection}{\numberline {8.10.9} Vaccs Lost Sync}{57}
+\contentsline {subsection}{\numberline {8.10.10}CBF Persistent mismatched sequence numbers}{58}
+\contentsline {chapter}{\numberline {9} MONITORING PROCEDURES}{60}
+\contentsline {section}{\numberline {9.1} Check CBF SKARAB Health}{60}
+\contentsline {section}{\numberline {9.2} MeerKAT Status Sensor Summary}{60}
+\contentsline {section}{\numberline {9.3} Monitor an active observation}{61}
+\contentsline {subsection}{\numberline {9.3.1}Catalogues Not Matching The Observation}{61}
+\contentsline {section}{\numberline {9.4} Monitoring SDP}{66}
+\contentsline {section}{\numberline {9.5}Monitoring Receptors}{66}
+\contentsline {section}{\numberline {9.6} Monitoring CBF}{68}
+\contentsline {section}{\numberline {9.7} Monitoring Digitiser }{69}
+\contentsline {subsection}{\numberline {9.7.1} Digitiser Spectrometer Overflows}{69}
+\contentsline {subsection}{\numberline {9.7.2} Digitiser Deng Overflows}{69}
+\contentsline {subsection}{\numberline {9.7.3} Digitiser Power Failed}{69}
+\contentsline {section}{\numberline {9.8} Monitoring Receiver }{69}
+\contentsline {subsection}{\numberline {9.8.1} Drain current errors on the receiver}{69}
+\contentsline {section}{\numberline {9.9} Monitoring of Weather and Wind Sensors}{69}
+\contentsline {subsection}{\numberline {9.9.1} Weather Information}{69}
+\contentsline {subsection}{\numberline {9.9.2} Weather Station Errors}{71}
+\contentsline {section}{\numberline {9.10} Monitoring BMS Sensors in KAPB}{71}
+\contentsline {subsection}{\numberline {9.10.1} BMS}{71}
+\contentsline {subsection}{\numberline {9.10.2} KAPB PDU Temperatures}{71}
+\contentsline {section}{\numberline {9.11} Inspecting Telescope Network Nodes}{72}
+\contentsline {subsection}{\numberline {9.11.1} Pinging Nodes With a Script}{72}
+\contentsline {subsection}{\numberline {9.11.2} Using Observium to check the network status of nodes}{73}
+\contentsline {chapter}{\numberline {10}Post Observation Quality Control}{74}
+\contentsline {section}{\numberline {10.1} Files status via SDP MC dashboard}{74}
+\contentsline {chapter}{\numberline {11}LOGGING PROCEDURES}{77}
+\contentsline {section}{\numberline {11.1}Incidents}{77}
+\contentsline {section}{\numberline {11.2} Receptor Requested For Maintenance}{77}
+\contentsline {section}{\numberline {11.3} What Goes Into A Log}{78}
+\contentsline {section}{\numberline {11.4} Other Notes}{78}
+\contentsline {section}{\numberline {11.5} Reacting to anomalies}{78}
+\contentsline {section}{\numberline {11.6}Creating a Jira}{80}
+\contentsline {section}{\numberline {11.7} Who to assign the JIRA to?}{82}
+\contentsline {chapter}{\numberline {12} Receptor Acceptance And Verification}{84}
+\contentsline {section}{\numberline {12.1} Receiver Models Updates}{84}
+\contentsline {section}{\numberline {12.2} Checklist after new receiver installation}{87}
+\contentsline {section}{\numberline {12.3}Receiver Vacuum Pump Oil Lubrication}{88}
+\contentsline {section}{\numberline {12.4} S-band Operations}{89}
+\contentsline {section}{\numberline {12.5} How to build an array}{90}
+\contentsline {section}{\numberline {12.6} S-band Observations}{91}
+\contentsline {subsection}{\numberline {12.6.1} Delay Calibration}{91}
+\contentsline {subsection}{\numberline {12.6.2} Example of schedule blocks}{91}
+\contentsline {subsection}{\numberline {12.6.3} Phase stability}{91}
+\contentsline {subsection}{\numberline {12.6.4} Tipping curve }{91}
+\contentsline {chapter}{\numberline {13}Accessing Site and Apps }{93}
+\contentsline {section}{\numberline {13.1}Hosts and Servers}{93}
+\contentsline {section}{\numberline {13.2}Utilities and Apps}{94}
+\contentsline {chapter}{\numberline {14}Reporting in Operations Meetings }{95}
+\contentsline {chapter}{\numberline {15}Conclusion}{97}
+\contentsline {chapter}{\numberline {A}Checklist}{98}
+\contentsline {chapter}{\numberline {B}Connecting to EDU-VPN}{99}
+\contentsline {section}{\numberline {B.1}Procedure for Linux}{99}
+\contentsline {section}{\numberline {B.2}Procedure for MacOS}{100}

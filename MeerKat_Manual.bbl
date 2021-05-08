@@ -1,9 +1,41 @@
 \begin{thebibliography}{1}
 
-\bibitem{standard2}
-Albert Einstein.
-\newblock International union of pure and applied physics. symbols, units,
-  nomenclature and fundamental constants in physics.
-\newblock 322(10):891--921, 1905.
+\bibitem{SP}
+Thomas Bennett.
+\newblock {\em Science Process Requirement Specification}.
+\newblock SARAO internal document, 2018.
+
+\bibitem{AP}
+Hendrik Bester.
+\newblock {\em Antenna Positioner Requirement Specification}.
+\newblock SARAO internal document, 2013.
+
+\bibitem{TFR}
+Johan Burger.
+\newblock {\em TFR System Requirement Specification}.
+\newblock SARAO internal document, 2018.
+
+\bibitem{ComRAD}
+ComRad.
+\newblock Comrad manual, 2018.
+
+\bibitem{DIG}
+Sias Malan.
+\newblock {\em Digitiser System Requirement Specification}.
+\newblock SARAO internal document, 2017.
+
+\bibitem{unit}
+NIST.
+\newblock Si unit rules and style conventions, 1984.
+
+\bibitem{RSC}
+Isak Theron.
+\newblock {\em Receiver System Requirement Specification}.
+\newblock SARAO internal document, 2015.
+
+\bibitem{CAM}
+Lize van Heveer.
+\newblock {\em CAM subsystem Requirements specification}.
+\newblock SARAO internal document, 2018.
 
 \end{thebibliography}
