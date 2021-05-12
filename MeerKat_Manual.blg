@@ -7,46 +7,45 @@ Warning--entry type for "unit" isn't style-file defined
 --line 41 of file references.bib
 Warning--entry type for "ComRAD" isn't style-file defined
 --line 126 of file references.bib
-Warning--I didn't find a database entry for "CBF"
-You've used 8 entries,
+You've used 9 entries,
             2118 wiz_defined-function locations,
-            536 strings with 4486 characters,
-and the built_in function-call counts, 1704 in all, are:
-= -- 148
-> -- 56
+            538 strings with 4549 characters,
+and the built_in function-call counts, 1919 in all, are:
+= -- 167
+> -- 63
 < -- 0
-+ -- 24
-- -- 16
-* -- 62
-:= -- 301
-add.period$ -- 22
-call.type$ -- 8
-change.case$ -- 26
++ -- 27
+- -- 18
+* -- 70
+:= -- 339
+add.period$ -- 25
+call.type$ -- 9
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 86
-empty$ -- 177
-format.name$ -- 16
-if$ -- 363
+cite$ -- 9
+duplicate$ -- 98
+empty$ -- 199
+format.name$ -- 18
+if$ -- 409
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 12
-newline$ -- 41
-num.names$ -- 16
-pop$ -- 66
+int.to.str$ -- 9
+missing$ -- 14
+newline$ -- 46
+num.names$ -- 18
+pop$ -- 74
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 27
 quote$ -- 0
-skip$ -- 52
+skip$ -- 58
 stack$ -- 0
-substring$ -- 40
-swap$ -- 8
+substring$ -- 45
+swap$ -- 9
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
+type$ -- 22
 warning$ -- 0
-while$ -- 16
-width$ -- 9
-write$ -- 78
-(There were 3 warnings)
+while$ -- 18
+width$ -- 10
+write$ -- 88
+(There were 2 warnings)

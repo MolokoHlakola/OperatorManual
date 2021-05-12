@@ -9,7 +9,7 @@ For donwloads of:
 \begin{itemize}
 	
 
-\item[\textbf{Step 1}] Whenever a receiver is replaced on a receptor, check the '\sensor{rsc.rx?.rec-model-date}' sensor (where \sensor{?} is the band) of that receptor. Compare the value you found with the value given in the table found in this document. If there is a difference, the receiver models need to be updated and thus proceed to step 2 If the values are the same, no action is required.
+\item[\textbf{Step 1}] Whenever a receiver is replaced on a receptor, check the '\sensor{rsc.rx?.rec-model-date}' sensor (where \sensor{?} is the band) of that receptor  as shown in \textbf{Figure}~\ref{fig:image77}. Compare the value you found with the value given in the table found in this document. If there is a difference, the receiver models need to be updated and thus proceed to step 2 If the values are the same, no action is required.
 
 
 \begin{figure}[!thb]
@@ -38,7 +38,7 @@ $ ./run\_rx\_models_download.sh --ant m0xx --band (l or u)
 \end{lstlisting}
 
 
-\item This will output an instruction with receiver serial number. Copy or add the serial number as the second argument.
+\item This will output an instruction with receiver serial number (see \textbf{Figure}~\ref{fig:image89}). Copy or add the serial number as the second argument.
 
 
 \begin{figure}[!thb]
@@ -61,24 +61,24 @@ $ ./run_rx_models_download.sh --ant m0xx --band (l or u) --sn xxxx
 
 
 
-\item When prompted enter “rsc” as the password to download the models to your local directory.
+\item When prompted enter “rsc” as the password to download the models to your local directory. See \textbf{Figure}~\ref{fig:image25} for the output.
 
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.5]{Chapters/images/image25.png}
+	\includegraphics[scale=0.25]{Chapters/images/image25.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Receiver model files downloaded}
 	\label{fig:image25}
 \end{figure}
 
-\item Later you will be asked a few times to enter your GitHUb credentials (username and password).
+\item Later you will be asked a few times to enter your GitHUb credentials (username and password)  as shown in \textbf{Figure}~\ref{fig:image14}.
 
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.5]{Chapters/images/image14.png}
+	\includegraphics[scale=0.7]{Chapters/images/image14.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Receiver model password}
@@ -86,13 +86,13 @@ $ ./run_rx_models_download.sh --ant m0xx --band (l or u) --sn xxxx
 \end{figure}
 
 
-\item When the script gives the below message then it was successful in uploading files to GitHub and you can proceed to step 3.
+\item When the script gives the message  as shown in \textbf{Figure}~\ref{fig:image80}, then it was successful in uploading files to GitHub and you can proceed to step 3.
 
 
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.5]{Chapters/images/image80.png}
+	\includegraphics[scale=0.45]{Chapters/images/image80.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Receiver model git push succesful}
@@ -104,12 +104,12 @@ $ ./run_rx_models_download.sh --ant m0xx --band (l or u) --sn xxxx
 
 
 
-\item  Go to \url{https://github.com/ska-sa/katconfig} where you will land at the following page:
+\item  Go to \url{https://github.com/ska-sa/katconfig} where you will land at the page in \textbf{Figure}~\ref{fig:image108}:
 
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.5]{Chapters/images/image108.png}
+	\includegraphics[scale=0.4]{Chapters/images/image108.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Receiver model github compare and pull request}
@@ -117,18 +117,18 @@ $ ./run_rx_models_download.sh --ant m0xx --band (l or u) --sn xxxx
 \end{figure}
 
 \item Click on “Compare \& pull request”.
-\item Make sure “base: karoo” and “compare: Rx(L or U)\_xxxx” is selected. Then write a comment stating what you are doing, why (give Jira number if applicable) and make the request out to Pieter Kotze. Below is an example:
+\item Make sure “base: karoo” and “compare: Rx(L or U)\_xxxx” is selected. Then write a comment stating what you are doing, why (give Jira number if applicable) and make the request out to Pieter Kotze. See \textbf{Figure}~\ref{fig:image81} for an example:
 
-\begin{figure}[!thb]
+\begin{figure}[H]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.5]{Chapters/images/image81.png}
+	\includegraphics[scale=0.4]{Chapters/images/image81.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Receiver model github pull request}
 	\label{fig:image81}
 \end{figure}
-\item At the right hand side at the top next to “Reviewers”, click on the gear icon. It will drop down a list of reviewers to choose from. Type “ppakotze” in the search field to find Pieter K and then click on Pieter K to request him to approve your pull request (It will show a check mark next to his name, and then under “Reviewers” you will see a yellow dot next to his name).
+\item At the right hand side at the top next to “Reviewers”, click on the gear icon. It will drop down a list of reviewers to choose from. Type “ppakotze” in the search field (see \textbf{Figure}~\ref{fig:image57}) to find Pieter K and then click on Pieter K to request him to approve your pull request (It will show a check mark next to his name, and then under “Reviewers” you will see a yellow dot next to his name).
 
 \begin{figure}[!thb]
 	\centering
@@ -267,14 +267,14 @@ Usually you build an array with:
 \end{itemize}
 \item Dump rate = 1s
 \item Add cbf\_1 (CMC1) and sdp\_1 resources if you are on subarray 1. Only use CMC2 if instructed to do so.
-\item Usable Antennas: Check the OPS Catalyst notice board for the latest on which antennas can be used in S-band.
+\item Usable Antennas: Check the OPS Catalyst notice board for the latest on which antennas can be used in S-band  as shown in \textbf{Figure}~\ref{fig:image113}.
 
 \end{itemize}
 
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.28]{Chapters/images/image113.png}
+	\includegraphics[scale=0.27]{Chapters/images/image113.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Example of a S-band array}

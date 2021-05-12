@@ -237,7 +237,7 @@ Choose ‘OBSERVATION’ in the drop-down menu under ‘TYPE’
 	\includegraphics[scale=0.37]{Chapters/images/image53.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
-	\caption{Edit the approved SB}
+	\caption{Save SB as observation type}
 	\label{fig:image53}
 \end{figure}
 
@@ -446,12 +446,7 @@ Delay solutions not found:\\
 \begin{itemize}
 \item{} One or more receptors failed to select observing band. The following error can be seen when building an array from the subarray logs:\\ \option{ 'select\_band\#012 raise faults. SelectBandError(failed)\#012SelectBandError: Failed to select\_band on receptors [m0xx]'} 
 \item{} Wait for the building process to end, then press the retry button on the GUI.
-\item{} If the above step fails, check the \sensor{'indexer raw position'} sensor in sensor list for that receptor (e.g L band $=$ 40\unit{deg})
-
-
-
-
-
+\item{} If the above step fails, check the \sensor{'indexer raw position'} sensor in sensor list (see \textbf{Figure}~\ref{fig:image72}) for that receptor (e.g L band $=$ 40\unit{deg})
 
 \begin{figure}[!thb]
 	\centering
@@ -474,7 +469,7 @@ cam.m0xx.req.ap_set_indexer_position('l') or 'u' for UHF
 \end{lstlisting}
 
 
-\item{} If the above step fails, check if the digitiser for the band in use is marked ready. If not refer to ‘mark digitiser ready’ section on this document, or follow the steps on the  Mark Digitiser Absent and/or Ready procedure.
+\item{} If the above step fails, check if the digitiser for the band in use is marked ready as shown in \textbf{Figure}~\ref{fig:image9}. If not refer to ‘mark digitiser ready’ section on this document, or follow the steps on the  Mark Digitiser Absent and/or Ready procedure.
 
 \begin{figure}[!thb]
 	\centering
@@ -497,7 +492,7 @@ cam.m0xx.req.ap_set_indexer_position('l') or 'u' for UHF
 		\item[$\circ$] Once the cbf is activated check the cbfmon plot in the GUI
 		\item[$\circ$] The antennas appears as a green (zero) blocks in waterfall plot
 		\item[$\circ$] You will see the signal for the affected antenna drop in the time series plot
-		\item[$\circ$] You will also notice no ingest data on the signal display.   Type \option{flagcount} to display the figure below.
+		\item[$\circ$] You will also notice no ingest data on the signal display as shown in \textbf{Figure}~\ref{fig:image20}.   Type \option{flagcount} to display the figure below.
 		
 		
 	\end{itemize}
@@ -531,7 +526,7 @@ cam.m0xx.req.ap_set_indexer_position('l') or 'u' for UHF
 
 \item{} You can also check the sensors by looking at the CBFMON on the sensor list (hide nominal - this takes a while to load)
 \item{} If multiple F-hosts are in error, break the array and build a new one [Remember to double check over a few minutes to see if the errors do not disappear by themselves.]
-\item{} The other option is to check the health of CBF via the CAM GUI and shown below.
+\item{} The other option is to check the health of CBF via the CAM GUI as shown in \textbf{Figure}~\ref{fig:image40} and \textbf{Figure}~\ref{fig:image91}
 
 \end{itemize}
 
@@ -574,13 +569,11 @@ kcpcmd -t 10 -s 10.103.254.3:7147 resource-mark skarab020408-01 standby
 	
 
 
-
-
 \item{} Example of “\textbf{no descriptor}” error
 	\begin{itemize}
 	\item[$\circ$] No descriptor block shows orange
-\item[$\circ$] Part of the band is missing
-\item[$\circ$] The no descriptor heap counts keeps rising
+\item[$\circ$] Part of the band is missing, see \textbf{Figure}~\ref{fig:image79} and \textbf{Figure}~\ref{fig:image65}.
+\item[$\circ$] The no descriptor heap counts keeps rising as shown in \textbf{Figure}~\ref{fig:image37}
 \end{itemize}
 \end{itemize}
 
@@ -596,10 +589,10 @@ kcpcmd -t 10 -s 10.103.254.3:7147 resource-mark skarab020408-01 standby
 	\label{fig:image79}
 \end{figure}
 
-\begin{figure}[!thb]
+\begin{figure}[H]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.2]{Chapters/images/image65.png}
+	\includegraphics[scale=0.18]{Chapters/images/image65.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Part of band missing due to "no descriptors" error}
@@ -609,12 +602,14 @@ kcpcmd -t 10 -s 10.103.254.3:7147 resource-mark skarab020408-01 standby
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.25]{Chapters/images/image129.png}
+	\includegraphics[scale=0.25]{Chapters/images/image37.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
-	\caption{SDP sensor list filtered by "desc"}
-	\label{fig:image129}
+	\caption{SDP sensor list with no-descriptor count increasing}
+	\label{fig:image37}
 \end{figure}
+
+
 
 \subsection{ How to fix this}
 \begin{itemize}
@@ -692,7 +687,7 @@ Example, on subarray\_1, you will see these values: \option{array\_1\_wide\_0, a
 \option{Subarray-product-ids  nominal  2019-11-28 13:52:20  array\_1\_wide\_0, array\_1\_wide\_1}
 
 \item{} Tear-down and rebuild the same subarray.  This should clear the error
-\item{} Re-check via CAM sensor-list for sdp\_1; use filter: subarray-product-ids, and it should show only one value.
+\item{} Re-check via CAM sensor-list for sdp\_1; use filter: subarray-product-ids, and it should show only one value as shown in \textbf{Figure}~\ref{fig:image43}.
 
 \option{Subarray-product-ids  nominal  2019-11-28 13:52:20 array\_1\_wide\_0}
 
@@ -730,7 +725,7 @@ kat@obs.mkat.karoo.kat.ac.za:~$ ./katsdpscripts/utility/check_cbf_skarab.py  --s
 \end{lstlisting}
 
 \item{} If the vaccs have lost sync, kill the array and build a new one
-\item{} Write a JIRA with a sensorgraph as shown in \textbf{Figure}~\ref{fig:image79}
+\item{} Write a JIRA with a sensorgraph as shown in \textbf{Figure}~\ref{fig:image27}
 
 
 
@@ -741,7 +736,7 @@ kat@obs.mkat.karoo.kat.ac.za:~$ ./katsdpscripts/utility/check_cbf_skarab.py  --s
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{CBF vaccs sync sensor graph}
-	\label{fig:image79}
+	\label{fig:image27}
 \end{figure}
 
 \end{itemize}

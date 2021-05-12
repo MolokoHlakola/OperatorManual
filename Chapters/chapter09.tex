@@ -6,7 +6,7 @@ Simply follow the link to see CBF overall health\\ \url{http://cbf-nuc2.cpt.kat.
 \section{ MeerKAT Status Sensor Summary}
 This too is a swift troubleshooting tool querying essential observation sensors from all active APs thus cutting down a systematic fault-finding approach.   
 
-Log onto the obs mkat machine and run the script below:
+Log onto the obs mkat machine and run the script below and the output will appear  as shown in \textbf{Figure}~\ref{fig:image78} for L-band or \textbf{Figure}~\ref{fig:image107} for U-band:
 \begin{lstlisting}[style=DOS]
 ssh kat@obs.mkat.karoo.kat.ac.za
 python usersnfs/tiyani/meerkat\_status.py --receiver-band rxl --send-status   
@@ -51,10 +51,7 @@ Once the observation begins,monitor the following for “no descriptor” errors
 \item \textbf{no-descriptor}-heaps-total for each band on the sdp\_1 GUI sensor list. 
 \item Go to the GUI, select sensor list and then select sdp\_1.
 \item There are four ingest nodes where each has ¼ of the band.
-\item Search for “desc” and hide nominals, the no-descriptor-heaps--total should preferably remain at zero for all ingest nodes but there are times where one or two ingest nodes will increase for a very short period after the observation begins.
-\item This is okay, as long as they all do not keep increasing to very high numbers.If this happens then break down the subarray, reload the Mellanox switch and rebuild the array.
-	
-
+\item Search for “desc” and hide nominals, the no-descriptor-heaps--total should preferably remain at zero for all ingest nodes (see \textbf{Figure}~\ref{fig:image129}) but there are times where one or two ingest nodes will increase for a very short period after the observation begins.
 
 \begin{figure}[!thb]
 	\centering
@@ -65,16 +62,20 @@ Once the observation begins,monitor the following for “no descriptor” errors
 	\caption{SDP sensors}
 	\label{fig:image129}
 \end{figure}
+\item This is okay, as long as they all do not keep increasing to very high numbers.If this happens then break down the subarray, reload the Mellanox switch and rebuild the array.
+	
+
+
 
 
 \item SDP Grafana GUI interface, this can be accessed via 	\url{http://mc1.sdp.mkat.karoo.kat.ac.za:3000/?orgId=1}  Select the "\textbf{Overview}" option. 
 
-\item There are other options which are available from the dashboard.
+\item There are other options which are available from the dashboard as shown in \textbf{Figure}~\ref{fig:image11}.
 
 \begin{figure}[H]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.24]{Chapters/images/image11.png}
+	\includegraphics[scale=0.22]{Chapters/images/image11.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{SDP Grafana dashboard}
@@ -82,22 +83,22 @@ Once the observation begins,monitor the following for “no descriptor” errors
 \end{figure}
 
 
-When running the observation, the dashboard will most likely show “no descriptor” errors at the beginning of the observation.  No descriptor block and/or incomplete heaps block are orange, these values should return to zero within five minutes.
+When running the observation, the dashboard will most likely show “no descriptor” errors at the beginning of the observation.  No descriptor block and/or incomplete heaps block are orange, these values should return to zero within five minutes as shown in \textbf{Figure}~\ref{fig:image15}.
 
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.26]{Chapters/images/image15.png}
+	\includegraphics[scale=0.22]{Chapters/images/image15.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
-	\caption{SDP Grafana dashboard with no descriptors errors}
+	\caption{SDP Grafana dashboard without \sensor{no descriptors} errors}
 	\label{fig:image15}
 \end{figure}
 \end{itemize}
 If the no descriptor counts keep rising, the switch needs to be reloaded
 
 \begin{itemize}
-\item Tail the observation progress
+\item Tail the observation progress,see  \textbf{Figure}~\ref{fig:image100}.
 
 
 \begin{figure}[H]
@@ -112,7 +113,7 @@ If the no descriptor counts keep rising, the switch needs to be reloaded
 
 
 \item Load signal displays from  \url{ http://mc1.sdp.mkat.karoo.kat.ac.za:5004/}
-You can also click on the link shown in the image below “Signal Display Dashboard ” under SDP resource.
+You can also click on the link shown in \textbf{Figure}~\ref{fig:image126}, “Signal Display Dashboard ” under SDP resource.
 
 \begin{figure}[H]
 	\centering
@@ -124,7 +125,7 @@ You can also click on the link shown in the image below “Signal Display Dashbo
 	\label{fig:image126}
 \end{figure}
 
-\item Type ‘load default2’ on the command line of the signal display
+\item Type ‘load default2’ on the command line of the signal display \textbf{Figure}~\ref{fig:image50}.
 
 
 \begin{figure}[H]
@@ -139,7 +140,7 @@ You can also click on the link shown in the image below “Signal Display Dashbo
 
 If on the command line you type wtabhh  or wtabvv you will see displays similar to the one shown on Figure 53 and Figure 54 respectively. Here will be able to check for any faulty Receptors which are not phasing with other Receptors or may show noisy phase. 
 
-\item{} Horizontal polarisations waterfall plot (wtabhh), this will display the waterfall shown below. 
+\item{} Horizontal polarisations waterfall plot (wtabhh), this will display the waterfall in \textbf{Figure}~\ref{fig:image102}. polarisations. 
 \clearpage
 
 \begin{figure}[!thb]
@@ -152,7 +153,7 @@ If on the command line you type wtabhh  or wtabvv you will see displays similar 
 	\label{fig:image102}
 \end{figure}
 
-\item{} Vertical polarisation waterfall plot (wtabvv)
+\item{} Vertical polarisation waterfall plot (wtabvv), see \textbf{Figure}~\ref{fig:image36}
 
 
 
@@ -166,7 +167,7 @@ If on the command line you type wtabhh  or wtabvv you will see displays similar 
 	\label{fig:image36}
 \end{figure}
 
-If for any reason, there is an antenna that is not phasing with other antennas or the phase seems noisy, then it is better to check if that antenna is moving with other antennas. You can open the receptor pointing tab and check the status of that antenna as shown below. 
+If for any reason, there is an antenna that is not phasing with other antennas or the phase seems noisy, then it is better to check if that antenna is moving with other antennas. You can open the receptor pointing tab and check the status of that antenna as shown in \textbf{Figure}~\ref{fig:image76} 
 
 
 \begin{figure}[H]
@@ -183,7 +184,7 @@ If for any reason, there is an antenna that is not phasing with other antennas o
 This will indicate to you if the antenna is locked on to the target by showing ‘*’ on the antenna number, if it is not locked to the target there will be no ‘*’. It will be advisable to look at the sensor list of that antenna in questions. 
 There may be other reasons for an antenna to have a noisy phase like a warm receiver, LNA switched off or CBF errors. 
 
-After the array is built  you can select “Sensor Groups” from the CAM GUI landing page and select critical observation sensors. This will list all the critical sensors that are required to be safe and okay for the observation as shown below.  
+After the array is built  you can select “Sensor Groups” from the CAM GUI landing page and select critical observation sensors. This will list all the critical sensors that are required to be safe and okay for the observation as shown in \textbf{Figure}~\ref{fig:image125}.  
 
 \end{itemize}
 
@@ -200,7 +201,7 @@ After the array is built  you can select “Sensor Groups” from the CAM GUI la
 
 \section{ Monitoring SDP}
 
-In order to see the status of the SDP subsystem after the array is built and the observation is running you can  start up the Science Processor dashboard. This dashboard called Grafana will give you all the information about the health of the SDP system and also data flow from CBF to SDP. 
+In order to see the status of the SDP subsystem after the array is built and the observation is running you can  start up the Science Processor dashboard (see \textbf{Figure}~\ref{fig:image123}). This dashboard called Grafana will give you all the information about the health of the SDP system and also data flow from CBF to SDP. 
 
 
 
@@ -245,7 +246,7 @@ kat.print_sensors(ap_sensors, strategy='period', status='warn|error|failure|unre
 
 
 
-This should generate the output as shown below.
+This should generate the output as shown in \textbf{Figure}~\ref{fig:image124}.
 
 
 
@@ -260,13 +261,14 @@ This should generate the output as shown below.
 \end{figure}
 
 
-AP fault finding during observation.
+\textbf{AP fault finding during observation:}
+\begin{itemize}
 
-Exclude APs in Maintenance on Critical Observation Sensors
+\item  \textcolor{blue}{Exclude APs in Maintenance on Critical Observation Sensors}
 
-Critical Observation Sensors is comprised of observation critical sensors. Sometimes receptors in maintenance flood the page when sensors transition to several non-nominal states, e.g. error, warn, failure, and unreachable. As this behavior is expected with maintenance, better to filter these receptors using regular expressions.  The example of how to do this is shown below in Figure 59.
+Critical Observation Sensors is comprised of observation critical sensors. Sometimes receptors in maintenance flood the page when sensors transition to several non-nominal states, e.g. error, warn, failure, and unreachable. As this behavior is expected with maintenance, better to filter these receptors using regular expressions.  The example of how to do this is shown below in \textbf{Figure}~\ref{fig:image120}.
 
-filter out nominal sensors (default setting)
+\item \textcolor{blue}{Filter out nominal sensors (default setting)}
 
 Notice m024 sensors are mainly occupying the page as it is worked on. This could potentially mask a set of active APs in the process. Moreover, m017 and m018 digitizers are inactive, would you like to constantly monitor that? Of course not.
 
@@ -275,39 +277,34 @@ Notice m024 sensors are mainly occupying the page as it is worked on. This could
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}    1206.png}
-	
+	\includegraphics[scale=0.33]{Chapters/images/image120.png}
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Critical observation sensors with hidden nominal sensors}
 	\label{fig:image120}
 \end{figure}
 
-Excluding receptors
+\item \textcolor{blue}{Excluding receptors}
 
-For instance, m017, m018, m024, m025 and m063 will be excluded. The expression is: m0(?!(17|18|24|25|63)) as shown in Figure 59
+For instance,\component{ m017, m018, m024, m025} and \component{m063} will be excluded. The expression is: m0(?!(17|18|24|25|63)) as shown in \textbf{Figure}~\ref{fig:image88}
 
-
+\end{itemize}
 
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.23]{Chapters/images/image88.png}
+	\includegraphics[scale=0.34]{Chapters/images/image88.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
-	\caption{Receptor pointing plot}
+	\caption{Critical sensor list filtered by AP names}
 	\label{fig:image88}
 \end{figure}
 
 
 \section{ Monitoring CBF}
-In order to monitor the status of the Correlator Beamformer (CBF) system, load the cbf mon\_1 plot on the GUI to monitor CBF health as shown in Figure 63 below. This will drill down to all the sensors of the CBF and will show warnings and alarms of each Skarab board. The dashboard will give you all the f-hots and x-hosts used in the array. Note that this display only becomes live after the subarray is built. 
-It is important to know that for a normal wide band observation with 64 antennas, there will be 128 Skarabs used. 64 are used for F-engines and another 64 are used for X-engines.  But for wide band and narrow band, a total of 200 skarabs will be used for this observation. 
-
-The alternative to looking at the CBF health status as shown in Figure 35 by using the following link:
-\url{http://cbf-nuc2.cpt.kat.ac.za/cmc1/array\_1.wide}
+In order to monitor the status of the Correlator Beamformer (CBF) system, load the cbf mon\_1 plot on the GUI to monitor CBF health as shown in \textbf{Figure}~\ref{fig:image122}. 
 
 
-
-\begin{figure}[!thb]
+\begin{figure}[H]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
 	\includegraphics[scale=0.23]{Chapters/images/image122.png}
@@ -317,6 +314,11 @@ The alternative to looking at the CBF health status as shown in Figure 35 by usi
 	\label{fig:image122}
 \end{figure}
 
+This will drill down to all the sensors of the CBF and will show warnings and alarms of each Skarab board. The dashboard will give you all the f-hots and x-hosts used in the array. Note that this display only becomes live after the subarray is built. 
+It is important to know that for a normal wide band observation with 64 antennas, there will be 128 Skarabs used. 64 are used for F-engines and another 64 are used for X-engines.  But for wide band and narrow band, a total of 200 skarabs will be used for this observation. 
+
+The alternative to looking at the CBF health status as shown in \textbf{Figure}~\ref{fig:image122} by using the following link:
+\url{http://cbf-nuc2.cpt.kat.ac.za/cmc1/array\_1.wide}
 
 If you want to see more CBF logs  you can monitor them by running cmc-top on the obs machine.
 \begin{lstlisting}[style=DOS]
@@ -324,7 +326,6 @@ cmc-top cmc1.cbf.mkat.karoo.kat.ac.za:7147
 
 
 \end{lstlisting}
-
 
 \section{ Monitoring Digitiser }
 \subsection{ Digitiser Spectrometer Overflows}
@@ -354,21 +355,21 @@ Power cycle the LNA of that AP.
 Normally this will solve the problem, otherwise contact Ben Jordaan
 \section{ Monitoring of Weather and Wind Sensors}
 \subsection{ Weather Information}
-There are three weather stations consisting of wind speed, wind direction, temperature and barometric pressure instruments that are installed next to the antennas. Operators are required to monitor the wind conditions as high wind conditions may cause damage to the AP.  The weather information is also used for observations so it is important that operators ensure that weather instruments are working at all times. Inorder to monitor weather, click on Weather tab under sensors on the CAM GUI as shown below
+There are three weather stations consisting of wind speed, wind direction, temperature and barometric pressure instruments that are installed next to the antennas. Operators are required to monitor the wind conditions as high wind conditions may cause damage to the AP.  The weather information is also used for observations so it is important that operators ensure that weather instruments are working at all times. Inorder to monitor weather, click on Weather tab under sensors on the CAM GUI as shown in \textbf{Figure}~\ref{fig:image67}
 
 
 
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.23]{Chapters/images/image76.png}
+	\includegraphics[scale=0.73]{Chapters/images/image67.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
-	\caption{CAM GUI main menu for sensors}
-	\label{fig:image76}
+	\caption{CAM GUI weather button }
+	\label{fig:image67}
 \end{figure}
 
-You will be able to view weather for the past 2 hours and up to a week interval. In the graph below there is a dotted line which shows the minimum and maximum wind speed threshold. If the wind speed is above minimum threshold for sustained period, the antenna will go to a stow position >90 deg in elevation to protect themselves from damage due to high winds.  If the wind gust goes above upper limit the antennas will store immediately.
+You will be able to view weather for the past 2 hours and up to a week interval. In the graph in \textbf{Figure}~\ref{fig:image56} there is a dotted line which shows the minimum and maximum wind speed threshold. If the wind speed is above minimum threshold for sustained period, the antenna will go to a stow position >90 deg in elevation to protect themselves from damage due to high winds.  If the wind gust goes above upper limit the antennas will store immediately.
 
 
 
@@ -397,9 +398,9 @@ Solution: Nothing, except to wait for the wind speed to subside.
 \section{ Monitoring BMS Sensors in KAPB}
 \subsection{ BMS} 
 The BMS sensors are made to assist operators in monitoring the KAPB building that houses all the racks  such as SP, APSUSE, TUSE, CBF, PTUSE, FBFUSE among others. The KAPB needs to be kept at an optimum temperature and RFI free at all times. 
-Currently the Building Management System  link to CAM is still under maintenance. 
-To check the BMS sensors:
-In the GUI, click on the sensor list tab>under components, click \textbf{ANC} > search "bms" or 
+Currently the Building Management System  link to CAM is still under maintenance. \\
+To check the BMS sensors:\\
+In the GUI, click on the sensor list tab>under components, click \sensor{ANC} $>$ search "bms" or 
 \url{http://portal.mkat.karoo.kat.ac.za/katgui/sensor-list?component=anc}
 \subsection{ KAPB PDU Temperatures}
 Due to HVAC work done in the Karoo Array Processor Building (KAPB), the interface between the HVAC units and the Building Management System (BMS) is currently broken so the BMS guys are not able to monitor the temperature in the KAPB.  So when you are LO please check periodically temperature sensors connected to the following Power Distribution Units (PDU). They are using this just to make sure that the correct temperature is maintained and if violated might cause temperature drifts on the Masers.
@@ -418,7 +419,7 @@ http://observium.kat.ac.za/graphs/to=1595399299/device=479/type=device\_temperat
 \subsection{ Pinging Nodes With a Script}
 The script must be run on the ops server. It takes one of the three command-line options to the network on a subsystem-selection basis.
 
-Start by logging onto the ops server
+Start by logging onto the ops server and see the output in \textbf{Figure}~\ref{fig:image127}
 \begin{lstlisting}[style=DOS]
 ssh kat@ops.kat.ac.za
 cd ops\_team\_sw/utilities/mKat/
@@ -431,7 +432,7 @@ Usage helper: run
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.23]{Chapters/images/image127.png}
+	\includegraphics[scale=0.63]{Chapters/images/image127.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Output of \_net.sh script $-$ Spine switch status}
@@ -439,7 +440,7 @@ Usage helper: run
 \end{figure}
 
 
-To test all CAM nodes, run
+To test all CAM nodes, run the following command and see output in \textbf{Figure}~\ref{fig:image55}
 \begin{lstlisting}[style=DOS]
 ./check\_mkat\_net.sh --sub cam
 
@@ -451,7 +452,7 @@ To test all CAM nodes, run
 \begin{figure}[!thb]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.23]{Chapters/images/image55.png}
+	\includegraphics[scale=0.55]{Chapters/images/image55.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Output of \_net.sh script $-$ All CAM nodes status}
@@ -459,7 +460,7 @@ To test all CAM nodes, run
 \end{figure}
 
 
-To test ping the link to site and all subsystem spine switches, run:
+To test ping the link to site and all subsystem spine switches, run the folloing command and see output in \textbf{Figure}~\ref{fig:image117}:
 \begin{lstlisting}[style=DOS]
 ./check\_mkat\_net.sh --sub net
 
@@ -467,10 +468,10 @@ To test ping the link to site and all subsystem spine switches, run:
 
 
 
-\begin{figure}[!thb]
+\begin{figure}[H]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.23]{Chapters/images/image117.png}
+	\includegraphics[scale=0.53]{Chapters/images/image117.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Output of \_net.sh script $-$ Spine switch status}
@@ -478,19 +479,18 @@ To test ping the link to site and all subsystem spine switches, run:
 \end{figure}
 
 
-To check if a digitiser is online, run:
+To check if a digitiser is online, run the folowing command and see the output in \textbf{Figure}~\ref{fig:image75}:
 \begin{lstlisting}[style=DOS]
 ./check\_mkat\_net.sh --sub dig --ant m0xx
-
 \end{lstlisting}
 
 
 
 
-\begin{figure}[!thb]
+\begin{figure}[H]
 	\centering
 	%\includegraphicsdpi{100}{}{bur1.png}     
-	\includegraphics[scale=0.23]{Chapters/images/image75.png}
+	\includegraphics[scale=0.43]{Chapters/images/image75.png}
 	
 	%\includegraphics[resolution=100]{bur1.png}
 	\caption{Output of \_net.sh script $-$ Digitiser status}

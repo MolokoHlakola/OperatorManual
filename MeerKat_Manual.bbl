@@ -33,6 +33,11 @@ Isak Theron.
 \newblock {\em Receiver System Requirement Specification}.
 \newblock SARAO internal document, 2015.
 
+\bibitem{CBF}
+Tyrone van Bella.
+\newblock {\em Correlator Beamformer Requirement Specification}.
+\newblock SARAO internal document, 2017.
+
 \bibitem{CAM}
 Lize van Heveer.
 \newblock {\em CAM subsystem Requirements specification}.
