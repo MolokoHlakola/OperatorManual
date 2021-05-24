@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.12)  13 MAY 2021 00:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.12)  20 MAY 2021 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1117,12 +1117,12 @@ LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 235.
 [14]
 Chapter 1.
 (./Chapters/chapter01.tex
-<Chapters/images/image49.png, id=65, 913.4125pt x 449.68pt>
+<Chapters/images/image49.png, id=66, 913.4125pt x 449.68pt>
 File: Chapters/images/image49.png Graphic file (type png)
 <use Chapters/images/image49.png>
 Package pdftex.def Info: Chapters/images/image49.png  used on input line 19.
 (pdftex.def)             Requested size: 456.70514pt x 224.83945pt.
-<Chapters/images/image64.png, id=67, 860.21375pt x 546.04pt>
+<Chapters/images/image64.png, id=68, 860.21375pt x 546.04pt>
 File: Chapters/images/image64.png Graphic file (type png)
 <use Chapters/images/image64.png>
 Package pdftex.def Info: Chapters/images/image64.png  used on input line 29.
@@ -1170,12 +1170,12 @@ Chapter 2.
 (./Chapters/chapter03.tex [20
 
 ]
-<Chapters/images/image71.png, id=89, 1373.13pt x 291.0875pt>
+<Chapters/images/image71.png, id=90, 1373.13pt x 291.0875pt>
 File: Chapters/images/image71.png Graphic file (type png)
 <use Chapters/images/image71.png>
 Package pdftex.def Info: Chapters/images/image71.png  used on input line 21.
 (pdftex.def)             Requested size: 411.94218pt x 87.32692pt.
-<Chapters/images/image38.png, id=90, 1364.09625pt x 537.00626pt>
+<Chapters/images/image38.png, id=91, 1364.09625pt x 537.00626pt>
 File: Chapters/images/image38.png Graphic file (type png)
 <use Chapters/images/image38.png>
 Package pdftex.def Info: Chapters/images/image38.png  used on input line 36.
@@ -1191,7 +1191,7 @@ LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 50.
 [21
 
  <./Chapters/images/image71.png> <./Chapters/images/image38.png>]
-<Chapters/images/terminal.png, id=96, 1311.90125pt x 690.58pt>
+<Chapters/images/terminal.png, id=97, 1311.90125pt x 690.58pt>
 File: Chapters/images/terminal.png Graphic file (type png)
 <use Chapters/images/terminal.png>
 Package pdftex.def Info: Chapters/images/terminal.png  used on input line 65.
@@ -1212,7 +1212,7 @@ Chapter 3.
 (./Chapters/chapter04.tex [23
 
 ]
-<Chapters/images/image98.png, id=104, 1858.945pt x 343.2825pt>
+<Chapters/images/image98.png, id=105, 1858.945pt x 343.2825pt>
 File: Chapters/images/image98.png Graphic file (type png)
 <use Chapters/images/image98.png>
 Package pdftex.def Info: Chapters/images/image98.png  used on input line 35.
@@ -1232,7 +1232,7 @@ LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 78.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<Chapters/images/image68.png, id=109, 1855.93375pt x 387.4475pt>
+<Chapters/images/image68.png, id=110, 1855.93375pt x 387.4475pt>
 File: Chapters/images/image68.png Graphic file (type png)
 <use Chapters/images/image68.png>
 Package pdftex.def Info: Chapters/images/image68.png  used on input line 95.
@@ -1246,7 +1246,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 105.
 LaTeX Warning: Reference `LastPage' on page 25 undefined on input line 105.
 
 [25 <./Chapters/images/image68.png>]
-<Chapters/images/image34.png, id=114, 1692.3225pt x 877.2775pt>
+<Chapters/images/image34.png, id=115, 1692.3225pt x 877.2775pt>
 File: Chapters/images/image34.png Graphic file (type png)
 <use Chapters/images/image34.png>
 Package pdftex.def Info: Chapters/images/image34.png  used on input line 114.
@@ -1286,12 +1286,12 @@ Overfull \hbox (37.48064pt too wide) in paragraph at lines 45--46
 ][][][][][][][][]
  []
 
-<Chapters/images/image115.png, id=122, 992.70876pt x 89.33376pt>
+<Chapters/images/image115.png, id=123, 992.70876pt x 89.33376pt>
 File: Chapters/images/image115.png Graphic file (type png)
 <use Chapters/images/image115.png>
 Package pdftex.def Info: Chapters/images/image115.png  used on input line 89.
 (pdftex.def)             Requested size: 456.65158pt x 41.09401pt.
-<Chapters/images/image121.png, id=123, 2006.49625pt x 190.7125pt>
+<Chapters/images/image121.png, id=124, 2006.49625pt x 190.7125pt>
 File: Chapters/images/image121.png Graphic file (type png)
 <use Chapters/images/image121.png>
 Package pdftex.def Info: Chapters/images/image121.png  used on input line 99.
@@ -1313,7 +1313,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 163.
 LaTeX Warning: Reference `LastPage' on page 29 undefined on input line 163.
 
 [29]
-<Chapters/images/image83.png, id=132, 1100.11pt x 274.02374pt>
+<Chapters/images/image83.png, id=133, 1100.11pt x 274.02374pt>
 File: Chapters/images/image83.png Graphic file (type png)
 <use Chapters/images/image83.png>
 Package pdftex.def Info: Chapters/images/image83.png  used on input line 178.
@@ -1323,7 +1323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--188
 
  []
 
-<Chapters/images/image51.png, id=133, 1097.09875pt x 221.82875pt>
+<Chapters/images/image51.png, id=134, 1097.09875pt x 221.82875pt>
 File: Chapters/images/image51.png Graphic file (type png)
 <use Chapters/images/image51.png>
 Package pdftex.def Info: Chapters/images/image51.png  used on input line 198.
@@ -1348,12 +1348,12 @@ Package pdftex.def Info: Images/logo2.png  used on input line 253.
 LaTeX Warning: Reference `LastPage' on page 31 undefined on input line 253.
 
 [31 <./Chapters/images/image51.png>]
-<Chapters/images/image108.png, id=143, 935.495pt x 534.99875pt>
+<Chapters/images/image108.png, id=144, 935.495pt x 534.99875pt>
 File: Chapters/images/image108.png Graphic file (type png)
 <use Chapters/images/image108.png>
 Package pdftex.def Info: Chapters/images/image108.png  used on input line 277.
 (pdftex.def)             Requested size: 402.255pt x 230.04497pt.
-<Chapters/images/image73.png, id=144, 923.45pt x 355.3275pt>
+<Chapters/images/image73.png, id=145, 923.45pt x 355.3275pt>
 File: Chapters/images/image73.png Graphic file (type png)
 <use Chapters/images/image73.png>
 Package pdftex.def Info: Chapters/images/image73.png  used on input line 289.
@@ -1367,12 +1367,12 @@ Package pdftex.def Info: Images/logo2.png  used on input line 295.
 LaTeX Warning: Reference `LastPage' on page 32 undefined on input line 295.
 
 [32 <./Chapters/images/image108.png>]
-<Chapters/images/image47.png, id=148, 1247.66125pt x 550.055pt>
+<Chapters/images/image47.png, id=149, 1247.66125pt x 550.055pt>
 File: Chapters/images/image47.png Graphic file (type png)
 <use Chapters/images/image47.png>
 Package pdftex.def Info: Chapters/images/image47.png  used on input line 306.
 (pdftex.def)             Requested size: 411.72948pt x 181.5187pt.
-<Chapters/images/reviewers.png, id=149, 1249.66875pt x 634.37pt>
+<Chapters/images/reviewers.png, id=150, 1249.66875pt x 634.37pt>
 File: Chapters/images/reviewers.png Graphic file (type png)
 <use Chapters/images/reviewers.png>
 Package pdftex.def Info: Chapters/images/reviewers.png  used on input line 321.
@@ -1405,7 +1405,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 [35
 
 ]
-<Chapters/images/image41.png, id=160, 1102.1175pt x 241.90375pt>
+<Chapters/images/image41.png, id=161, 1102.1175pt x 241.90375pt>
 File: Chapters/images/image41.png Graphic file (type png)
 <use Chapters/images/image41.png>
 Package pdftex.def Info: Chapters/images/image41.png  used on input line 68.
@@ -1423,7 +1423,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 102.
 LaTeX Warning: Reference `LastPage' on page 36 undefined on input line 102.
 
 [36 <./Chapters/images/image41.png>]
-<Chapters/images/He1.png, id=166, 954.56625pt x 348.30125pt>
+<Chapters/images/He1.png, id=167, 954.56625pt x 348.30125pt>
 File: Chapters/images/He1.png Graphic file (type png)
 <use Chapters/images/He1.png>
 Package pdftex.def Info: Chapters/images/He1.png  used on input line 109.
@@ -1437,7 +1437,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 123.
 LaTeX Warning: Reference `LastPage' on page 37 undefined on input line 123.
 
 [37 <./Chapters/images/He1.png>]
-<Chapters/images/He2.png, id=170, 513.92pt x 144.54pt>
+<Chapters/images/He2.png, id=171, 513.92pt x 144.54pt>
 File: Chapters/images/He2.png Graphic file (type png)
 <use Chapters/images/He2.png>
 Package pdftex.def Info: Chapters/images/He2.png  used on input line 127.
@@ -1534,7 +1534,7 @@ Chapter 7.
 ]
 Chapter 8.
 (./Chapters/chapter08.tex
-<Chapters/images/calendar.png, id=190, 1606.0pt x 890.32625pt>
+<Chapters/images/calendar.png, id=191, 1606.0pt x 890.32625pt>
 File: Chapters/images/calendar.png Graphic file (type png)
 <use Chapters/images/calendar.png>
 Package pdftex.def Info: Chapters/images/calendar.png  used on input line 20.
@@ -1542,17 +1542,17 @@ Package pdftex.def Info: Chapters/images/calendar.png  used on input line 20.
  [44
 
  <./Chapters/images/calendar.png>]
-<Chapters/images/image3.png, id=194, 1303.87125pt x 430.60875pt>
+<Chapters/images/image3.png, id=195, 1303.87125pt x 430.60875pt>
 File: Chapters/images/image3.png Graphic file (type png)
 <use Chapters/images/image3.png>
 Package pdftex.def Info: Chapters/images/image3.png  used on input line 42.
 (pdftex.def)             Requested size: 456.36177pt x 150.7153pt.
-<Chapters/images/image6.png, id=195, 581.17125pt x 76.285pt>
+<Chapters/images/image6.png, id=196, 581.17125pt x 76.285pt>
 File: Chapters/images/image6.png Graphic file (type png)
 <use Chapters/images/image6.png>
 Package pdftex.def Info: Chapters/images/image6.png  used on input line 53.
 (pdftex.def)             Requested size: 464.93764pt x 61.02808pt.
-<Chapters/images/image44.png, id=196, 1290.8225pt x 164.615pt>
+<Chapters/images/image44.png, id=197, 1290.8225pt x 164.615pt>
 File: Chapters/images/image44.png Graphic file (type png)
 <use Chapters/images/image44.png>
 Package pdftex.def Info: Chapters/images/image44.png  used on input line 66.
@@ -1567,17 +1567,17 @@ LaTeX Warning: Reference `LastPage' on page 45 undefined on input line 76.
 
 [45 <./Chapters/images/image3.png> <./Chapters/images/image6.png> <./Chapters/i
 mages/image44.png>]
-<Chapters/images/image116.png, id=200, 1009.7725pt x 231.86626pt>
+<Chapters/images/image116.png, id=201, 1009.7725pt x 231.86626pt>
 File: Chapters/images/image116.png Graphic file (type png)
 <use Chapters/images/image116.png>
 Package pdftex.def Info: Chapters/images/image116.png  used on input line 83.
 (pdftex.def)             Requested size: 353.42567pt x 81.15439pt.
-<Chapters/images/image42.png, id=201, 1814.78pt x 592.2125pt>
+<Chapters/images/image42.png, id=202, 1814.78pt x 592.2125pt>
 File: Chapters/images/image42.png Graphic file (type png)
 <use Chapters/images/image42.png>
 Package pdftex.def Info: Chapters/images/image42.png  used on input line 111.
 (pdftex.def)             Requested size: 453.6939pt x 148.05275pt.
-<Chapters/images/image113.png, id=202, 1584.92125pt x 686.565pt>
+<Chapters/images/image113.png, id=203, 1584.92125pt x 686.565pt>
 File: Chapters/images/image113.png Graphic file (type png)
 <use Chapters/images/image113.png>
 Package pdftex.def Info: Chapters/images/image113.png  used on input line 133.
@@ -1591,7 +1591,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 139.
 LaTeX Warning: Reference `LastPage' on page 46 undefined on input line 139.
 
 [46 <./Chapters/images/image116.png> <./Chapters/images/image42.png>]
-<Chapters/images/image12.png, id=207, 1545.775pt x 377.41pt>
+<Chapters/images/image12.png, id=208, 1545.775pt x 377.41pt>
 File: Chapters/images/image12.png Graphic file (type png)
 <use Chapters/images/image12.png>
 Package pdftex.def Info: Chapters/images/image12.png  used on input line 146.
@@ -1610,22 +1610,22 @@ Overfull \hbox (384.28831pt too wide) in paragraph at lines 167--168
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<Chapters/images/image19.png, id=212, 1420.30624pt x 42.1575pt>
+<Chapters/images/image19.png, id=213, 1420.30624pt x 42.1575pt>
 File: Chapters/images/image19.png Graphic file (type png)
 <use Chapters/images/image19.png>
 Package pdftex.def Info: Chapters/images/image19.png  used on input line 185.
 (pdftex.def)             Requested size: 355.07568pt x 10.53934pt.
-<Chapters/images/image131.png, id=213, 1721.43124pt x 244.915pt>
+<Chapters/images/image131.png, id=214, 1721.43124pt x 244.915pt>
 File: Chapters/images/image131.png Graphic file (type png)
 <use Chapters/images/image131.png>
 Package pdftex.def Info: Chapters/images/image131.png  used on input line 200.
 (pdftex.def)             Requested size: 430.35677pt x 61.22859pt.
-<Chapters/images/image119.png, id=214, 741.77126pt x 415.5525pt>
+<Chapters/images/image119.png, id=215, 741.77126pt x 415.5525pt>
 File: Chapters/images/image119.png Graphic file (type png)
 <use Chapters/images/image119.png>
 Package pdftex.def Info: Chapters/images/image119.png  used on input line 213.
 (pdftex.def)             Requested size: 185.44235pt x 103.88786pt.
-<Chapters/images/image31.png, id=215, 1534.73375pt x 280.04625pt>
+<Chapters/images/image31.png, id=216, 1534.73375pt x 280.04625pt>
 File: Chapters/images/image31.png Graphic file (type png)
 <use Chapters/images/image31.png>
 Package pdftex.def Info: Chapters/images/image31.png  used on input line 224.
@@ -1639,12 +1639,12 @@ LaTeX Warning: Reference `LastPage' on page 48 undefined on input line 230.
 
 [48 <./Chapters/images/image19.png> <./Chapters/images/image131.png> <./Chapter
 s/images/image119.png>]
-<Chapters/images/image53.png, id=223, 1249.66875pt x 167.62625pt>
+<Chapters/images/image53.png, id=224, 1249.66875pt x 167.62625pt>
 File: Chapters/images/image53.png Graphic file (type png)
 <use Chapters/images/image53.png>
 Package pdftex.def Info: Chapters/images/image53.png  used on input line 237.
 (pdftex.def)             Requested size: 462.37021pt x 62.02072pt.
-<Chapters/images/ManualSB.png, id=224, 1099.10625pt x 41.15375pt>
+<Chapters/images/ManualSB.png, id=225, 1099.10625pt x 41.15375pt>
 File: Chapters/images/ManualSB.png Graphic file (type png)
 <use Chapters/images/ManualSB.png>
 Package pdftex.def Info: Chapters/images/ManualSB.png  used on input line 252.
@@ -1696,7 +1696,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 400.
 LaTeX Warning: Reference `LastPage' on page 51 undefined on input line 400.
 
 [51]
-<Chapters/images/image1.png, id=237, 1918.16624pt x 719.68875pt>
+<Chapters/images/image1.png, id=238, 1918.16624pt x 719.68875pt>
 File: Chapters/images/image1.png Graphic file (type png)
 <use Chapters/images/image1.png>
 Package pdftex.def Info: Chapters/images/image1.png  used on input line 405.
@@ -1736,12 +1736,12 @@ Overfull \hbox (21.0159pt too wide) in paragraph at lines 447--448
 ectBandError:
  []
 
-<Chapters/images/image72.png, id=241, 1186.4325pt x 113.42375pt>
+<Chapters/images/image72.png, id=242, 1186.4325pt x 113.42375pt>
 File: Chapters/images/image72.png Graphic file (type png)
 <use Chapters/images/image72.png>
 Package pdftex.def Info: Chapters/images/image72.png  used on input line 454.
 (pdftex.def)             Requested size: 438.97316pt x 41.96613pt.
-<Chapters/images/image9.png, id=242, 1190.4475pt x 142.5325pt>
+<Chapters/images/image9.png, id=243, 1190.4475pt x 142.5325pt>
 File: Chapters/images/image9.png Graphic file (type png)
 <use Chapters/images/image9.png>
 Package pdftex.def Info: Chapters/images/image9.png  used on input line 477.
@@ -1754,17 +1754,17 @@ Package pdftex.def Info: Images/logo2.png  used on input line 492.
 LaTeX Warning: Reference `LastPage' on page 53 undefined on input line 492.
 
 [53 <./Chapters/images/image72.png> <./Chapters/images/image9.png>]
-<Chapters/images/image20.png, id=246, 1057.9525pt x 516.93124pt>
+<Chapters/images/image20.png, id=247, 1057.9525pt x 516.93124pt>
 File: Chapters/images/image20.png Graphic file (type png)
 <use Chapters/images/image20.png>
 Package pdftex.def Info: Chapters/images/image20.png  used on input line 507.
 (pdftex.def)             Requested size: 423.17351pt x 206.76883pt.
-<Chapters/images/image40.png, id=247, 1923.185pt x 799.98875pt>
+<Chapters/images/image40.png, id=248, 1923.185pt x 799.98875pt>
 File: Chapters/images/image40.png Graphic file (type png)
 <use Chapters/images/image40.png>
 Package pdftex.def Info: Chapters/images/image40.png  used on input line 520.
 (pdftex.def)             Requested size: 423.102pt x 175.99806pt.
-<Chapters/images/image91.png, id=248, 1596.96625pt x 923.45pt>
+<Chapters/images/image91.png, id=249, 1596.96625pt x 923.45pt>
 File: Chapters/images/image91.png Graphic file (type png)
 <use Chapters/images/image91.png>
 Package pdftex.def Info: Chapters/images/image91.png  used on input line 537.
@@ -1787,17 +1787,17 @@ Package pdftex.def Info: Images/logo2.png  used on input line 557.
 LaTeX Warning: Reference `LastPage' on page 55 undefined on input line 557.
 
 [55 <./Chapters/images/image40.png> <./Chapters/images/image91.png>]
-<Chapters/images/image79.png, id=258, 1626.075pt x 468.75125pt>
+<Chapters/images/image79.png, id=259, 1626.075pt x 468.75125pt>
 File: Chapters/images/image79.png Graphic file (type png)
 <use Chapters/images/image79.png>
 Package pdftex.def Info: Chapters/images/image79.png  used on input line 585.
 (pdftex.def)             Requested size: 325.20924pt x 93.74858pt.
-<Chapters/images/image65.png, id=259, 2006.49625pt x 999.735pt>
+<Chapters/images/image65.png, id=260, 2006.49625pt x 999.735pt>
 File: Chapters/images/image65.png Graphic file (type png)
 <use Chapters/images/image65.png>
 Package pdftex.def Info: Chapters/images/image65.png  used on input line 595.
 (pdftex.def)             Requested size: 361.15375pt x 179.94453pt.
-<Chapters/images/image37.png, id=260, 1377.145pt x 292.09125pt>
+<Chapters/images/image37.png, id=261, 1377.145pt x 292.09125pt>
 File: Chapters/images/image37.png Graphic file (type png)
 <use Chapters/images/image37.png>
 Package pdftex.def Info: Chapters/images/image37.png  used on input line 605.
@@ -1840,12 +1840,12 @@ Overfull \hbox (37.07089pt too wide) in paragraph at lines 687--688
 ide[]0, array[]1[]wide[]1 
  []
 
-<Chapters/images/image43.png, id=269, 667.49374pt x 78.2925pt>
+<Chapters/images/image43.png, id=270, 667.49374pt x 78.2925pt>
 File: Chapters/images/image43.png Graphic file (type png)
 <use Chapters/images/image43.png>
 Package pdftex.def Info: Chapters/images/image43.png  used on input line 697.
 (pdftex.def)             Requested size: 467.24245pt x 54.80437pt.
-<Chapters/images/image24.png, id=270, 2006.49625pt x 772.8875pt>
+<Chapters/images/image24.png, id=271, 2006.49625pt x 772.8875pt>
 File: Chapters/images/image24.png Graphic file (type png)
 <use Chapters/images/image24.png>
 Package pdftex.def Info: Chapters/images/image24.png  used on input line 715.
@@ -1860,7 +1860,7 @@ Overfull \hbox (39.03029pt too wide) in paragraph at lines 724--725
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<Chapters/images/image27.png, id=271, 1852.9225pt x 967.615pt>
+<Chapters/images/image27.png, id=272, 1852.9225pt x 967.615pt>
 File: Chapters/images/image27.png Graphic file (type png)
 <use Chapters/images/image27.png>
 Package pdftex.def Info: Chapters/images/image27.png  used on input line 735.
@@ -1870,7 +1870,7 @@ Overfull \hbox (11.99347pt too wide) in paragraph at lines 735--736
  [][] 
  []
 
-<Chapters/images/image95.png, id=272, 684.5575pt x 139.52126pt>
+<Chapters/images/image95.png, id=273, 684.5575pt x 139.52126pt>
 File: Chapters/images/image95.png Graphic file (type png)
 <use Chapters/images/image95.png>
 Package pdftex.def Info: Chapters/images/image95.png  used on input line 764.
@@ -1883,7 +1883,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 770.
 LaTeX Warning: Reference `LastPage' on page 58 undefined on input line 770.
 
 [58 <./Chapters/images/image43.png>]
-<Chapters/images/image118.png, id=277, 767.86874pt x 562.1pt>
+<Chapters/images/image118.png, id=278, 767.86874pt x 562.1pt>
 File: Chapters/images/image118.png Graphic file (type png)
 <use Chapters/images/image118.png>
 Package pdftex.def Info: Chapters/images/image118.png  used on input line 783.
@@ -1909,12 +1909,12 @@ LaTeX Warning: Reference `LastPage' on page 60 undefined on input line 264.
 (PNG copy)>]
 Chapter 9.
 (./Chapters/chapter09.tex
-<Chapters/images/image78.png, id=286, 1851.91875pt x 510.90875pt>
+<Chapters/images/image78.png, id=287, 1851.91875pt x 510.90875pt>
 File: Chapters/images/image78.png Graphic file (type png)
 <use Chapters/images/image78.png>
 Package pdftex.def Info: Chapters/images/image78.png  used on input line 20.
 (pdftex.def)             Requested size: 333.331pt x 91.9596pt.
-<Chapters/images/image107.png, id=287, 1401.235pt x 304.13625pt>
+<Chapters/images/image107.png, id=288, 1401.235pt x 304.13625pt>
 File: Chapters/images/image107.png Graphic file (type png)
 <use Chapters/images/image107.png>
 Package pdftex.def Info: Chapters/images/image107.png  used on input line 32.
@@ -1922,12 +1922,12 @@ Package pdftex.def Info: Chapters/images/image107.png  used on input line 32.
  [61
 
  <./Chapters/images/image78.png> <./Chapters/images/image107.png>]
-<Chapters/images/image129.png, id=291, 1498.59875pt x 540.0175pt>
+<Chapters/images/image129.png, id=292, 1498.59875pt x 540.0175pt>
 File: Chapters/images/image129.png Graphic file (type png)
 <use Chapters/images/image129.png>
 Package pdftex.def Info: Chapters/images/image129.png  used on input line 59.
 (pdftex.def)             Requested size: 389.6265pt x 140.40123pt.
-<Chapters/images/image11.png, id=292, 2006.49625pt x 635.37375pt>
+<Chapters/images/image11.png, id=293, 2006.49625pt x 635.37375pt>
 File: Chapters/images/image11.png Graphic file (type png)
 <use Chapters/images/image11.png>
 Package pdftex.def Info: Chapters/images/image11.png  used on input line 78.
@@ -1941,12 +1941,12 @@ Package pdftex.def Info: Images/logo2.png  used on input line 84.
 LaTeX Warning: Reference `LastPage' on page 62 undefined on input line 84.
 
 [62 <./Chapters/images/image129.png (PNG copy)>]
-<Chapters/images/image15.png, id=296, 2006.49625pt x 1061.9675pt>
+<Chapters/images/image15.png, id=297, 2006.49625pt x 1061.9675pt>
 File: Chapters/images/image15.png Graphic file (type png)
 <use Chapters/images/image15.png>
 Package pdftex.def Info: Chapters/images/image15.png  used on input line 91.
 (pdftex.def)             Requested size: 441.43054pt x 233.63356pt.
-<Chapters/images/image100.png, id=297, 2006.49625pt x 311.1625pt>
+<Chapters/images/image100.png, id=298, 2006.49625pt x 311.1625pt>
 File: Chapters/images/image100.png Graphic file (type png)
 <use Chapters/images/image100.png>
 Package pdftex.def Info: Chapters/images/image100.png  used on input line 107.
@@ -1961,12 +1961,12 @@ LaTeX Warning: Reference `LastPage' on page 63 undefined on input line 117.
 
 [63 <./Chapters/images/image11.png> <./Chapters/images/image15.png> <./Chapters
 /images/image100.png>]
-<Chapters/images/image126.png, id=304, 280.04625pt x 44.165pt>
+<Chapters/images/image126.png, id=305, 280.04625pt x 44.165pt>
 File: Chapters/images/image126.png Graphic file (type png)
 <use Chapters/images/image126.png>
 Package pdftex.def Info: Chapters/images/image126.png  used on input line 121.
 (pdftex.def)             Requested size: 280.04555pt x 44.16487pt.
-<Chapters/images/image50.png, id=305, 2006.49625pt x 1027.84pt>
+<Chapters/images/image50.png, id=306, 2006.49625pt x 1027.84pt>
 File: Chapters/images/image50.png Graphic file (type png)
 <use Chapters/images/image50.png>
 Package pdftex.def Info: Chapters/images/image50.png  used on input line 134.
@@ -1980,17 +1980,17 @@ Package pdftex.def Info: Images/logo2.png  used on input line 144.
 LaTeX Warning: Reference `LastPage' on page 64 undefined on input line 144.
 
 [64 <./Chapters/images/image126.png> <./Chapters/images/image50.png>]
-<Chapters/images/image102.png, id=311, 2006.49625pt x 715.67375pt>
+<Chapters/images/image102.png, id=312, 2006.49625pt x 715.67375pt>
 File: Chapters/images/image102.png Graphic file (type png)
 <use Chapters/images/image102.png>
 Package pdftex.def Info: Chapters/images/image102.png  used on input line 149.
 (pdftex.def)             Requested size: 461.48444pt x 164.6015pt.
-<Chapters/images/image36.png, id=312, 2006.49625pt x 711.65875pt>
+<Chapters/images/image36.png, id=313, 2006.49625pt x 711.65875pt>
 File: Chapters/images/image36.png Graphic file (type png)
 <use Chapters/images/image36.png>
 Package pdftex.def Info: Chapters/images/image36.png  used on input line 163.
 (pdftex.def)             Requested size: 461.48444pt x 163.67807pt.
-<Chapters/images/image76.png, id=313, 2006.49625pt x 954.56625pt>
+<Chapters/images/image76.png, id=314, 2006.49625pt x 954.56625pt>
 File: Chapters/images/image76.png Graphic file (type png)
 <use Chapters/images/image76.png>
 Package pdftex.def Info: Chapters/images/image76.png  used on input line 176.
@@ -2006,7 +2006,7 @@ LaTeX Warning: Reference `LastPage' on page 65 undefined on input line 182.
 [65
 
  <./Chapters/images/image102.png> <./Chapters/images/image36.png>]
-<Chapters/images/image125.png, id=319, 2006.49625pt x 1100.11pt>
+<Chapters/images/image125.png, id=320, 2006.49625pt x 1100.11pt>
 File: Chapters/images/image125.png Graphic file (type png)
 <use Chapters/images/image125.png>
 Package pdftex.def Info: Chapters/images/image125.png  used on input line 194.
@@ -2020,7 +2020,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 205.
 LaTeX Warning: Reference `LastPage' on page 66 undefined on input line 205.
 
 [66 <./Chapters/images/image76.png> <./Chapters/images/image125.png>]
-<Chapters/images/image123.png, id=326, 2006.49625pt x 1074.0125pt>
+<Chapters/images/image123.png, id=327, 2006.49625pt x 1074.0125pt>
 File: Chapters/images/image123.png Graphic file (type png)
 <use Chapters/images/image123.png>
 Package pdftex.def Info: Chapters/images/image123.png  used on input line 211.
@@ -2045,22 +2045,22 @@ Package pdftex.def Info: Images/logo2.png  used on input line 244.
 LaTeX Warning: Reference `LastPage' on page 67 undefined on input line 244.
 
 [67 <./Chapters/images/image123.png>]
-<Chapters/images/image124.png, id=331, 2006.49625pt x 1220.56pt>
+<Chapters/images/image124.png, id=332, 2006.49625pt x 1220.56pt>
 File: Chapters/images/image124.png Graphic file (type png)
 <use Chapters/images/image124.png>
 Package pdftex.def Info: Chapters/images/image124.png  used on input line 256.
 (pdftex.def)             Requested size: 461.48444pt x 280.72289pt.
-<Chapters/images/image120.png, id=332, 955.57pt x 404.51125pt>
+<Chapters/images/image120.png, id=333, 955.57pt x 404.51125pt>
 File: Chapters/images/image120.png Graphic file (type png)
 <use Chapters/images/image120.png>
 Package pdftex.def Info: Chapters/images/image120.png  used on input line 280.
 (pdftex.def)             Requested size: 315.33908pt x 133.48912pt.
-<Chapters/images/image88.png, id=333, 895.345pt x 310.15875pt>
+<Chapters/images/image88.png, id=334, 895.345pt x 310.15875pt>
 File: Chapters/images/image88.png Graphic file (type png)
 <use Chapters/images/image88.png>
 Package pdftex.def Info: Chapters/images/image88.png  used on input line 295.
 (pdftex.def)             Requested size: 304.41327pt x 105.45258pt.
-<Chapters/images/image122.png, id=334, 1644.1425pt x 912.40875pt>
+<Chapters/images/image122.png, id=335, 1644.1425pt x 912.40875pt>
 File: Chapters/images/image122.png Graphic file (type png)
 <use Chapters/images/image122.png>
 Package pdftex.def Info: Chapters/images/image122.png  used on input line 310.
@@ -2093,12 +2093,12 @@ Package pdftex.def Info: Images/logo2.png  used on input line 356.
 LaTeX Warning: Reference `LastPage' on page 70 undefined on input line 356.
 
 [70]
-<Chapters/images/image67.png, id=347, 185.69376pt x 215.80624pt>
+<Chapters/images/image67.png, id=348, 185.69376pt x 215.80624pt>
 File: Chapters/images/image67.png Graphic file (type png)
 <use Chapters/images/image67.png>
 Package pdftex.def Info: Chapters/images/image67.png  used on input line 365.
 (pdftex.def)             Requested size: 135.55531pt x 157.53723pt.
-<Chapters/images/image56.png, id=348, 1828.8325pt x 869.2475pt>
+<Chapters/images/image56.png, id=349, 1828.8325pt x 869.2475pt>
 File: Chapters/images/image56.png Graphic file (type png)
 <use Chapters/images/image56.png>
 Package pdftex.def Info: Chapters/images/image56.png  used on input line 379.
@@ -2144,17 +2144,17 @@ Package pdftex.def Info: Images/logo2.png  used on input line 417.
 LaTeX Warning: Reference `LastPage' on page 72 undefined on input line 417.
 
 [72 <./Chapters/images/image56.png>]
-<Chapters/images/image127.png, id=356, 648.4225pt x 147.55125pt>
+<Chapters/images/image127.png, id=357, 648.4225pt x 147.55125pt>
 File: Chapters/images/image127.png Graphic file (type png)
 <use Chapters/images/image127.png>
 Package pdftex.def Info: Chapters/images/image127.png  used on input line 435.
 (pdftex.def)             Requested size: 408.50833pt x 92.95776pt.
-<Chapters/images/image55.png, id=357, 758.835pt x 121.45375pt>
+<Chapters/images/image55.png, id=358, 758.835pt x 121.45375pt>
 File: Chapters/images/image55.png Graphic file (type png)
 <use Chapters/images/image55.png>
 Package pdftex.def Info: Chapters/images/image55.png  used on input line 455.
 (pdftex.def)             Requested size: 417.36055pt x 66.79974pt.
-<Chapters/images/image117.png, id=358, 627.34375pt x 581.17125pt>
+<Chapters/images/image117.png, id=359, 627.34375pt x 581.17125pt>
 File: Chapters/images/image117.png Graphic file (type png)
 <use Chapters/images/image117.png>
 Package pdftex.def Info: Chapters/images/image117.png  used on input line 474.
@@ -2168,7 +2168,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 480.
 LaTeX Warning: Reference `LastPage' on page 73 undefined on input line 480.
 
 [73 <./Chapters/images/image127.png> <./Chapters/images/image55.png>]
-<Chapters/images/image75.png, id=364, 717.68124pt x 489.83pt>
+<Chapters/images/image75.png, id=365, 717.68124pt x 489.83pt>
 File: Chapters/images/image75.png Graphic file (type png)
 <use Chapters/images/image75.png>
 Package pdftex.def Info: Chapters/images/image75.png  used on input line 493.
@@ -2198,12 +2198,12 @@ Overfull \hbox (24.7821pt too wide) in paragraph at lines 3--4
  / kat-[]archive . kat . ac . za : 8080 / archive \ _search/$ 
  []
 
-<Chapters/images/image96.png, id=373, 700.6175pt x 476.78125pt>
+<Chapters/images/image96.png, id=374, 700.6175pt x 476.78125pt>
 File: Chapters/images/image96.png Graphic file (type png)
 <use Chapters/images/image96.png>
 Package pdftex.def Info: Chapters/images/image96.png  used on input line 17.
 (pdftex.def)             Requested size: 231.20448pt x 157.33829pt.
-<Chapters/images/image16.png, id=374, 2006.49625pt x 1052.93375pt>
+<Chapters/images/image16.png, id=375, 2006.49625pt x 1052.93375pt>
 File: Chapters/images/image16.png Graphic file (type png)
 <use Chapters/images/image16.png>
 Package pdftex.def Info: Chapters/images/image16.png  used on input line 31.
@@ -2211,17 +2211,17 @@ Package pdftex.def Info: Chapters/images/image16.png  used on input line 31.
 [76
 
  <./Chapters/images/image96.png>]
-<Chapters/images/image5.png, id=379, 2006.49625pt x 286.06876pt>
+<Chapters/images/image5.png, id=380, 2006.49625pt x 286.06876pt>
 File: Chapters/images/image5.png Graphic file (type png)
 <use Chapters/images/image5.png>
 Package pdftex.def Info: Chapters/images/image5.png  used on input line 51.
 (pdftex.def)             Requested size: 461.48444pt x 65.79442pt.
-<Chapters/images/image92.png, id=380, 2006.49625pt x 307.1475pt>
+<Chapters/images/image92.png, id=381, 2006.49625pt x 307.1475pt>
 File: Chapters/images/image92.png Graphic file (type png)
 <use Chapters/images/image92.png>
 Package pdftex.def Info: Chapters/images/image92.png  used on input line 62.
 (pdftex.def)             Requested size: 461.48444pt x 70.64243pt.
-<Chapters/images/image13.png, id=381, 2006.49625pt x 283.0575pt>
+<Chapters/images/image13.png, id=382, 2006.49625pt x 283.0575pt>
 File: Chapters/images/image13.png Graphic file (type png)
 <use Chapters/images/image13.png>
 Package pdftex.def Info: Chapters/images/image13.png  used on input line 73.
@@ -2316,12 +2316,12 @@ LaTeX Warning: Reference `LastPage' on page 84 undefined on input line 272.
 [84]
 Chapter 12.
 (./Chapters/chapter12.tex
-<Chapters/images/image77.png, id=412, 691.58376pt x 66.2475pt>
+<Chapters/images/image77.png, id=413, 691.58376pt x 66.2475pt>
 File: Chapters/images/image77.png Graphic file (type png)
 <use Chapters/images/image77.png>
 Package pdftex.def Info: Chapters/images/image77.png  used on input line 18.
 (pdftex.def)             Requested size: 345.79103pt x 33.12366pt.
-<Chapters/images/image89.png, id=413, 852.18375pt x 221.82875pt>
+<Chapters/images/image89.png, id=414, 852.18375pt x 221.82875pt>
 File: Chapters/images/image89.png Graphic file (type png)
 <use Chapters/images/image89.png>
 Package pdftex.def Info: Chapters/images/image89.png  used on input line 47.
@@ -2329,17 +2329,17 @@ Package pdftex.def Info: Chapters/images/image89.png  used on input line 47.
  [85
 
  <./Chapters/images/image77.png>]
-<Chapters/images/image25.png, id=417, 1859.94875pt x 336.25626pt>
+<Chapters/images/image25.png, id=418, 1859.94875pt x 336.25626pt>
 File: Chapters/images/image25.png Graphic file (type png)
 <use Chapters/images/image25.png>
 Package pdftex.def Info: Chapters/images/image25.png  used on input line 69.
 (pdftex.def)             Requested size: 464.98605pt x 84.06386pt.
-<Chapters/images/image14.png, id=418, 404.51125pt x 37.13875pt>
+<Chapters/images/image14.png, id=419, 404.51125pt x 37.13875pt>
 File: Chapters/images/image14.png Graphic file (type png)
 <use Chapters/images/image14.png>
 Package pdftex.def Info: Chapters/images/image14.png  used on input line 81.
 (pdftex.def)             Requested size: 283.15593pt x 25.99693pt.
-<Chapters/images/image80.png, id=419, 941.5175pt x 62.2325pt>
+<Chapters/images/image80.png, id=420, 941.5175pt x 62.2325pt>
 File: Chapters/images/image80.png Graphic file (type png)
 <use Chapters/images/image80.png>
 Package pdftex.def Info: Chapters/images/image80.png  used on input line 95.
@@ -2358,7 +2358,7 @@ LaTeX Warning: Reference `LastPage' on page 86 undefined on input line 117.
 
 [86 <./Chapters/images/image89.png> <./Chapters/images/image25.png> <./Chapters
 /images/image14.png> <./Chapters/images/image80.png>]
-<Chapters/images/image81.png, id=424, 924.45375pt x 557.08125pt>
+<Chapters/images/image81.png, id=425, 924.45375pt x 557.08125pt>
 File: Chapters/images/image81.png Graphic file (type png)
 <use Chapters/images/image81.png>
 Package pdftex.def Info: Chapters/images/image81.png  used on input line 125.
@@ -2372,7 +2372,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 132.
 LaTeX Warning: Reference `LastPage' on page 87 undefined on input line 132.
 
 [87 <./Chapters/images/image81.png>]
-<Chapters/images/image57.png, id=428, 321.2pt x 172.645pt>
+<Chapters/images/image57.png, id=429, 321.2pt x 172.645pt>
 File: Chapters/images/image57.png Graphic file (type png)
 <use Chapters/images/image57.png>
 Package pdftex.def Info: Chapters/images/image57.png  used on input line 136.
@@ -2391,12 +2391,12 @@ Overfull \hbox (404.68877pt too wide) in paragraph at lines 189--190
 ][][][][][][][][][][][][][][][][][][][] 
  []
 
-<Chapters/images/image48.png, id=432, 684.5575pt x 50.1875pt>
+<Chapters/images/image48.png, id=433, 684.5575pt x 50.1875pt>
 File: Chapters/images/image48.png Graphic file (type png)
 <use Chapters/images/image48.png>
 Package pdftex.def Info: Chapters/images/image48.png  used on input line 207.
 (pdftex.def)             Requested size: 342.27791pt x 25.09367pt.
-<Chapters/images/image85.png, id=433, 265.99374pt x 53.19875pt>
+<Chapters/images/image85.png, id=434, 265.99374pt x 53.19875pt>
 File: Chapters/images/image85.png Graphic file (type png)
 <use Chapters/images/image85.png>
 Package pdftex.def Info: Chapters/images/image85.png  used on input line 220.
@@ -2548,7 +2548,7 @@ LaTeX Warning: Reference `LastPage' on page 94 undefined on input line 278.
 [94]
 Chapter 14.
 (./Chapters/chapter14.tex
-<Chapters/images/image86.png, id=453, 798.985pt x 359.3425pt>
+<Chapters/images/image86.png, id=454, 798.985pt x 359.3425pt>
 File: Chapters/images/image86.png Graphic file (type png)
 <use Chapters/images/image86.png>
 Package pdftex.def Info: Chapters/images/image86.png  used on input line 12.
@@ -2571,12 +2571,12 @@ Appendix A.
 ]
 Appendix B.
 (./Chapters/appendixB.tex
-<Chapters/images/image39.png, id=464, 979.66pt x 999.735pt>
+<Chapters/images/image39.png, id=465, 979.66pt x 999.735pt>
 File: Chapters/images/image39.png Graphic file (type png)
 <use Chapters/images/image39.png>
 Package pdftex.def Info: Chapters/images/image39.png  used on input line 34.
 (pdftex.def)             Requested size: 244.9144pt x 249.93314pt.
-<Chapters/images/image2.png, id=465, 1971.365pt x 1435.3625pt>
+<Chapters/images/image2.png, id=466, 1971.365pt x 1435.3625pt>
 File: Chapters/images/image2.png Graphic file (type png)
 <use Chapters/images/image2.png>
 Package pdftex.def Info: Chapters/images/image2.png  used on input line 47.
@@ -2584,7 +2584,7 @@ Package pdftex.def Info: Chapters/images/image2.png  used on input line 47.
  [98
 
 ]
-<Chapters/images/image130.png, id=469, 2006.49625pt x 416.55624pt>
+<Chapters/images/image130.png, id=470, 2006.49625pt x 416.55624pt>
 File: Chapters/images/image130.png Graphic file (type png)
 <use Chapters/images/image130.png>
 Package pdftex.def Info: Chapters/images/image130.png  used on input line 58.
@@ -2599,12 +2599,12 @@ LaTeX Warning: Reference `LastPage' on page 99 undefined on input line 67.
 
 [99 <./Chapters/images/image39.png (PNG copy)> <./Chapters/images/image2.png (P
 NG copy)>]
-<Chapters/images/image112.png, id=474, 1455.4375pt x 1134.2375pt>
+<Chapters/images/image112.png, id=475, 1455.4375pt x 1134.2375pt>
 File: Chapters/images/image112.png Graphic file (type png)
 <use Chapters/images/image112.png>
 Package pdftex.def Info: Chapters/images/image112.png  used on input line 71.
 (pdftex.def)             Requested size: 363.85849pt x 283.55869pt.
-<Chapters/images/image60.png, id=475, 1971.365pt x 1423.3175pt>
+<Chapters/images/image60.png, id=476, 1971.365pt x 1423.3175pt>
 File: Chapters/images/image60.png Graphic file (type png)
 <use Chapters/images/image60.png>
 Package pdftex.def Info: Chapters/images/image60.png  used on input line 84.
@@ -2619,12 +2619,12 @@ LaTeX Warning: Reference `LastPage' on page 100 undefined on input line 90.
 
 [100 <./Chapters/images/image130.png> <./Chapters/images/image112.png (PNG copy
 )>]
-<Chapters/images/image101.png, id=480, 2006.49625pt x 643.40375pt>
+<Chapters/images/image101.png, id=481, 2006.49625pt x 643.40375pt>
 File: Chapters/images/image101.png Graphic file (type png)
 <use Chapters/images/image101.png>
 Package pdftex.def Info: Chapters/images/image101.png  used on input line 97.
 (pdftex.def)             Requested size: 421.37665pt x 135.11877pt.
-<Chapters/images/image26.png, id=481, 1445.4pt x 683.55376pt>
+<Chapters/images/image26.png, id=482, 1445.4pt x 683.55376pt>
 File: Chapters/images/image26.png Graphic file (type png)
 <use Chapters/images/image26.png>
 Package pdftex.def Info: Chapters/images/image26.png  used on input line 108.
@@ -2639,22 +2639,22 @@ LaTeX Warning: Reference `LastPage' on page 101 undefined on input line 120.
 
 [101 <./Chapters/images/image60.png (PNG copy)> <./Chapters/images/image101.png
 >]
-<Chapters/images/image106.png, id=486, 2006.49625pt x 1248.665pt>
+<Chapters/images/image106.png, id=487, 2006.49625pt x 1248.665pt>
 File: Chapters/images/image106.png Graphic file (type png)
 <use Chapters/images/image106.png>
 Package pdftex.def Info: Chapters/images/image106.png  used on input line 124.
 (pdftex.def)             Requested size: 461.48444pt x 287.1869pt.
-<Chapters/images/image45.png, id=487, 1848.9075pt x 660.4675pt>
+<Chapters/images/image45.png, id=488, 1848.9075pt x 660.4675pt>
 File: Chapters/images/image45.png Graphic file (type png)
 <use Chapters/images/image45.png>
 Package pdftex.def Info: Chapters/images/image45.png  used on input line 139.
 (pdftex.def)             Requested size: 425.23978pt x 151.90433pt.
-<Chapters/images/image105.png, id=488, 441.65pt x 601.24625pt>
+<Chapters/images/image105.png, id=489, 441.65pt x 601.24625pt>
 File: Chapters/images/image105.png Graphic file (type png)
 <use Chapters/images/image105.png>
 Package pdftex.def Info: Chapters/images/image105.png  used on input line 149.
 (pdftex.def)             Requested size: 145.74493pt x 198.41187pt.
-<Chapters/images/image74.png, id=489, 442.65375pt x 597.23125pt>
+<Chapters/images/image74.png, id=490, 442.65375pt x 597.23125pt>
 File: Chapters/images/image74.png Graphic file (type png)
 <use Chapters/images/image74.png>
 Package pdftex.def Info: Chapters/images/image74.png  used on input line 163.
@@ -2677,7 +2677,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 169.
 LaTeX Warning: Reference `LastPage' on page 103 undefined on input line 169.
 
 [103 <./Chapters/images/image45.png> <./Chapters/images/image105.png>]
-<Chapters/images/image63.png, id=501, 441.65pt x 601.24625pt>
+<Chapters/images/image63.png, id=502, 441.65pt x 601.24625pt>
 File: Chapters/images/image63.png Graphic file (type png)
 <use Chapters/images/image63.png>
 Package pdftex.def Info: Chapters/images/image63.png  used on input line 180.
@@ -2691,12 +2691,12 @@ Package pdftex.def Info: Images/logo2.png  used on input line 191.
 LaTeX Warning: Reference `LastPage' on page 104 undefined on input line 191.
 
 [104 <./Chapters/images/image74.png> <./Chapters/images/image63.png>]
-<Chapters/images/revoke2.png, id=507, 1258.7025pt x 449.68pt>
+<Chapters/images/revoke2.png, id=508, 1258.7025pt x 449.68pt>
 File: Chapters/images/revoke2.png Graphic file (type png)
 <use Chapters/images/revoke2.png>
 Package pdftex.def Info: Chapters/images/revoke2.png  used on input line 196.
 (pdftex.def)             Requested size: 377.61366pt x 134.90503pt.
-<Chapters/images/image7.png, id=508, 443.6575pt x 601.24625pt>
+<Chapters/images/image7.png, id=509, 443.6575pt x 601.24625pt>
 File: Chapters/images/image7.png Graphic file (type png)
 <use Chapters/images/image7.png>
 Package pdftex.def Info: Chapters/images/image7.png  used on input line 212.
@@ -2718,12 +2718,12 @@ File: Chapters/images/image106.png Graphic file (type png)
 <use Chapters/images/image106.png>
 Package pdftex.def Info: Chapters/images/image106.png  used on input line 240.
 (pdftex.def)             Requested size: 361.15375pt x 224.75pt.
-<Chapters/images/image8.png, id=514, 1458.44875pt x 197.73875pt>
+<Chapters/images/image8.png, id=515, 1458.44875pt x 197.73875pt>
 File: Chapters/images/image8.png Graphic file (type png)
 <use Chapters/images/image8.png>
 Package pdftex.def Info: Chapters/images/image8.png  used on input line 251.
 (pdftex.def)             Requested size: 335.43616pt x 45.47894pt.
-<Chapters/images/image28.png, id=515, 494.84875pt x 758.835pt>
+<Chapters/images/image28.png, id=516, 494.84875pt x 758.835pt>
 File: Chapters/images/image28.png Graphic file (type png)
 <use Chapters/images/image28.png>
 Package pdftex.def Info: Chapters/images/image28.png  used on input line 261.
@@ -2737,7 +2737,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 266.
 LaTeX Warning: Reference `LastPage' on page 106 undefined on input line 266.
 
 [106]
-<Chapters/images/image110.png, id=519, 709.65125pt x 1136.245pt>
+<Chapters/images/image110.png, id=520, 709.65125pt x 1136.245pt>
 File: Chapters/images/image110.png Graphic file (type png)
 <use Chapters/images/image110.png>
 Package pdftex.def Info: Chapters/images/image110.png  used on input line 272.
@@ -2751,7 +2751,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 278.
 LaTeX Warning: Reference `LastPage' on page 107 undefined on input line 278.
 
 [107 <./Chapters/images/image8.png> <./Chapters/images/image28.png>]
-<Chapters/images/image69.png, id=525, 582.175pt x 948.54375pt>
+<Chapters/images/image69.png, id=526, 582.175pt x 948.54375pt>
 File: Chapters/images/image69.png Graphic file (type png)
 <use Chapters/images/image69.png>
 Package pdftex.def Info: Chapters/images/image69.png  used on input line 282.
@@ -2765,12 +2765,12 @@ Package pdftex.def Info: Images/logo2.png  used on input line 288.
 LaTeX Warning: Reference `LastPage' on page 108 undefined on input line 288.
 
 [108 <./Chapters/images/image110.png>]
-<Chapters/images/image111.png, id=531, 592.2125pt x 953.5625pt>
+<Chapters/images/image111.png, id=532, 592.2125pt x 953.5625pt>
 File: Chapters/images/image111.png Graphic file (type png)
 <use Chapters/images/image111.png>
 Package pdftex.def Info: Chapters/images/image111.png  used on input line 292.
 (pdftex.def)             Requested size: 148.05275pt x 238.39005pt.
-<Chapters/images/image58.png, id=532, 575.14874pt x 941.5175pt>
+<Chapters/images/image58.png, id=533, 575.14874pt x 941.5175pt>
 File: Chapters/images/image58.png Graphic file (type png)
 <use Chapters/images/image58.png>
 Package pdftex.def Info: Chapters/images/image58.png  used on input line 302.
@@ -2784,7 +2784,7 @@ Package pdftex.def Info: Images/logo2.png  used on input line 307.
 LaTeX Warning: Reference `LastPage' on page 109 undefined on input line 307.
 
 [109 <./Chapters/images/image69.png> <./Chapters/images/image111.png>]
-<Chapters/images/image32.png, id=538, 2006.49625pt x 1150.2975pt>
+<Chapters/images/image32.png, id=539, 2006.49625pt x 1150.2975pt>
 File: Chapters/images/image32.png Graphic file (type png)
 <use Chapters/images/image32.png>
 Package pdftex.def Info: Chapters/images/image32.png  used on input line 314.
@@ -2827,32 +2827,32 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8917 strings out of 494923
- 134349 string characters out of 6180741
- 205934 words of memory out of 5000000
- 11917 multiletter control sequences out of 15000+600000
- 15742 words of font info for 61 fonts, out of 8000000 for 9000
+ 8919 strings out of 494923
+ 134368 string characters out of 6180741
+ 205932 words of memory out of 5000000
+ 11918 multiletter control sequences out of 15000+600000
+ 16051 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,22n,43p,836b,1327s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/moloko/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt0800.60
 0pk> </home/moloko/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.
 600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-t8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
-0.pfb>
-Output written on MeerKat_Manual.pdf (113 pages, 22682061 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on MeerKat_Manual.pdf (113 pages, 22693374 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
+ 615 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  541 words of extra memory for PDF output out of 10000 (max. 10000000)
 
